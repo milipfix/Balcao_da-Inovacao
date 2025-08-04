@@ -51,27 +51,27 @@ function initializeMap() {
 // Carregar dados das instituições
 async function loadData() {
     try {
-        // Simular carregamento dos dados (em produção, seria um fetch)
-        // Por enquanto, vamos usar dados mockados baseados no que processamos
-        const response = await fetch('./data.json').catch(() => {
-            // Se não conseguir carregar o arquivo, usar dados mockados
-            return { ok: false };
-        });
-
-        if (response.ok) {
-            instituicoes = await response.json();
-        } else {
-            // Dados mockados para demonstração
-            instituicoes = await getMockData();
+        console.log('Carregando dados das instituições...');
+        
+        const response = await fetch('./data.json');
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
         }
-
-        // Filtrar apenas instituições do RS com coordenadas
-        instituicoes = instituicoes.filter(inst => 
-            inst.Estado === 'RS' && 
-            inst.latitude && 
-            inst.longitude
-        );
-
+        
+        const allData = await response.json();
+        console.log(`Total de instituições carregadas: ${allData.length}`);
+        
+        // Filtrar apenas instituições do RS com coordenadas válidas
+        instituicoes = allData.filter(inst => {
+            const isRS = inst.Estado === 'RS';
+            const hasCoords = inst.latitude && inst.longitude && 
+                             inst.latitude !== null && inst.longitude !== null;
+            return isRS && hasCoords;
+        });
+        
+        console.log(`Instituições do RS com coordenadas: ${instituicoes.length}`);
+        
         filteredInstituicoes = [...instituicoes];
         
         updateStats();
@@ -83,92 +83,8 @@ async function loadData() {
     } catch (error) {
         console.error('Erro ao carregar dados:', error);
         hideLoading();
-        showError('Erro ao carregar os dados das instituições.');
+        showError('Erro ao carregar os dados das instituições. Verifique se o arquivo data.json está presente.');
     }
-}
-
-// Dados mockados baseados no processamento anterior
-async function getMockData() {
-    return [
-        {
-            "Cidade": "Porto Alegre",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "UFRGS",
-            "Nome da Instituição/Tipo": "Universidade Federal do Rio Grande do Sul",
-            "Setor": "ICT",
-            "Contato": "",
-            "Site": "https://www.ufrgs.br",
-            "E-mail de contato": "reitoria@ufrgs.br",
-            "latitude": -30.0346,
-            "longitude": -51.2177,
-            "coordenadas_status": "conhecida"
-        },
-        {
-            "Cidade": "Caxias do Sul",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "UCS",
-            "Nome da Instituição/Tipo": "Universidade de Caxias do Sul",
-            "Setor": "ICT",
-            "Contato": "",
-            "Site": "https://www.ucs.br",
-            "E-mail de contato": "reitoria@ucs.br",
-            "latitude": -29.1685,
-            "longitude": -51.1796,
-            "coordenadas_status": "conhecida"
-        },
-        {
-            "Cidade": "Pelotas",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "UFPEL",
-            "Nome da Instituição/Tipo": "Universidade Federal de Pelotas",
-            "Setor": "ICT",
-            "Contato": "",
-            "Site": "https://portal.ufpel.edu.br",
-            "E-mail de contato": "reitoria@ufpel.edu.br",
-            "latitude": -31.7654,
-            "longitude": -52.3376,
-            "coordenadas_status": "conhecida"
-        },
-        {
-            "Cidade": "Santa Maria",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "UFSM",
-            "Nome da Instituição/Tipo": "Universidade Federal de Santa Maria",
-            "Setor": "ICT",
-            "Contato": "",
-            "Site": "https://www.ufsm.br",
-            "E-mail de contato": "reitoria@ufsm.br",
-            "latitude": -29.6842,
-            "longitude": -53.8069,
-            "coordenadas_status": "conhecida"
-        },
-        {
-            "Cidade": "Passo Fundo",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "UPF",
-            "Nome da Instituição/Tipo": "Universidade de Passo Fundo",
-            "Setor": "ICT",
-            "Contato": "",
-            "Site": "https://www.upf.br",
-            "E-mail de contato": "reitoria@upf.br",
-            "latitude": -28.2636,
-            "longitude": -52.4069,
-            "coordenadas_status": "conhecida"
-        },
-        {
-            "Cidade": "Porto Alegre",
-            "Estado": "RS",
-            "Abreviatura da Instituição": "TECNOPUC",
-            "Nome da Instituição/Tipo": "Parque Científico e Tecnológico da PUCRS",
-            "Setor": "Parque Tecnológico",
-            "Contato": "",
-            "Site": "https://www.tecnopuc.com.br",
-            "E-mail de contato": "contato@tecnopuc.com.br",
-            "latitude": -30.0346,
-            "longitude": -51.2177,
-            "coordenadas_status": "conhecida"
-        }
-    ];
 }
 
 // Configurar event listeners
