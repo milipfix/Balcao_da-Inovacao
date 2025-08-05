@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel de Instituições de CT&I - Brasil</title>
-    
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
           crossorigin=""/>
     
-    <!-- Font Awesome para ícones -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Google Fonts -->
@@ -18,6 +17,7 @@
     
     <!-- CSS customizado -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="ai-styles.css">
 </head>
 <body>
     <!-- Header -->
@@ -60,14 +60,21 @@
                 <div class="filters-container">
                     <div class="filter-group">
                         <label for="tipo-filter">Tipo:</label>
-                        <select id="tipo-filter">
+                        <select id="tipo-filter" onchange="applyFilters()">
                             <option value="">Todos os tipos</option>
                         </select>
                     </div>
                     
                     <div class="filter-group">
+                        <label for="setor-filter">Setor:</label>
+                        <select id="setor-filter" onchange="applyFilters()">
+                            <option value="">Todos os setores</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
                         <label for="cidade-filter">Estado:</label>
-                        <select id="cidade-filter">
+                        <select id="cidade-filter" onchange="applyFilters()">
                             <option value="">Todos os estados</option>
                         </select>
                     </div>
@@ -181,6 +188,13 @@
                         <span id="modal-contato"></span>
                     </div>
                 </div>
+                
+                <div class="modal-actions">
+                    <button id="btn-visao-ia" class="btn-ai" onclick="executarVisaoIA(currentInstitutionName)">
+                        <i class="fas fa-brain"></i>
+                        Visão da IA
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -199,6 +213,7 @@
             crossorigin=""></script>
     
     <!-- JavaScript customizado -->
+    <script src="ai-research.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

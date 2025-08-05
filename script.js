@@ -1,9 +1,9 @@
 // Variáveis globais
 let map;
-let markersLayer;
 let instituicoes = [];
 let filteredInstituicoes = [];
-let currentMarkers = [];
+let markersLayer;
+let currentInstitutionName = ''; // Para a funcionalidade IA
 
 // Configurações do mapa - Agora para todo o Brasil
 const BRASIL_CENTER = [-15.0, -47.0];
@@ -114,6 +114,7 @@ function updateStats() {
 // Popular filtros
 function populateFilters() {
     const tipoFilter = document.getElementById('tipo-filter');
+    const setorFilter = document.getElementById('setor-filter');
     const cidadeFilter = document.getElementById('cidade-filter');
     
     // Tipos únicos (baseado na coluna Tipo)
@@ -123,6 +124,15 @@ function populateFilters() {
         option.value = tipo;
         option.textContent = tipo;
         tipoFilter.appendChild(option);
+    });
+    
+    // Setores únicos (baseado na coluna Setor)
+    const setores = new Set(instituicoes.map(inst => inst.Setor || 'Não informado').filter(Boolean));
+    Array.from(setores).sort().forEach(setor => {
+        const option = document.createElement('option');
+        option.value = setor;
+        option.textContent = setor.length > 50 ? setor.substring(0, 50) + '...' : setor;
+        setorFilter.appendChild(option);
     });
     
     // Estados únicos
@@ -226,6 +236,7 @@ function createPopupContent(instituicao) {
 function applyFilters() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     const tipoFilter = document.getElementById('tipo-filter').value;
+    const setorFilter = document.getElementById('setor-filter').value;
     const estadoFilter = document.getElementById('cidade-filter').value;
     
     filteredInstituicoes = instituicoes.filter(instituicao => {
@@ -233,12 +244,14 @@ function applyFilters() {
             (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase().includes(searchTerm) ||
             (instituicao.Cidade || '').toLowerCase().includes(searchTerm) ||
             (instituicao.Estado || '').toLowerCase().includes(searchTerm) ||
-            (instituicao.Tipo || '').toLowerCase().includes(searchTerm);
+            (instituicao.Tipo || '').toLowerCase().includes(searchTerm) ||
+            (instituicao.Setor || '').toLowerCase().includes(searchTerm);
         
         const matchesTipo = !tipoFilter || (instituicao.Tipo || 'Outros') === tipoFilter;
+        const matchesSetor = !setorFilter || (instituicao.Setor || 'Não informado') === setorFilter;
         const matchesEstado = !estadoFilter || instituicao.Estado === estadoFilter;
         
-        return matchesSearch && matchesTipo && matchesEstado;
+        return matchesSearch && matchesTipo && matchesSetor && matchesEstado;
     });
     
     displayMarkers();
@@ -249,6 +262,7 @@ function applyFilters() {
 function resetFilters() {
     document.getElementById('search-input').value = '';
     document.getElementById('tipo-filter').value = '';
+    document.getElementById('setor-filter').value = '';
     document.getElementById('cidade-filter').value = '';
     
     filteredInstituicoes = [...instituicoes];
@@ -284,7 +298,6 @@ function updateResultsList() {
         resultsList.appendChild(item);
     });
 }
-
 // Mostrar modal com detalhes
 function showModal(index) {
     const instituicao = filteredInstituicoes[index];
@@ -297,6 +310,9 @@ function showModal(index) {
     const site = instituicao.Site;
     const contato = instituicao.Contato;
     const setor = instituicao.Setor || 'Não informado';
+    
+    // Salvar nome da instituição para a IA
+    currentInstitutionName = nome;
     
     document.getElementById('modal-title').textContent = nome;
     document.getElementById('modal-tipo').textContent = tipo;
@@ -317,12 +333,41 @@ function showModal(index) {
         modalContato.textContent = 'Não informado';
     }
     
-    modal.style.display = 'flex';
+    // Resetar conteúdo do modal para mostrar informações básicas
+    const modalBody = document.getElementById('modal-body');
+    modalBody.innerHTML = `
+        <div class="modal-info">
+            <div class="info-row">
+                <strong>Tipo:</strong>
+                <span id="modal-tipo">${tipo}</span>
+            </div>
+            <div class="info-row">
+                <strong>Localização:</strong>
+                <span id="modal-cidade">${cidade}, ${estado}</span>
+            </div>
+            <div class="info-row">
+                <strong>Setor:</strong>
+                <span id="modal-setor">${setor}</span>
+            </div>
+            <div class="info-row">
+                <strong>Site:</strong>
+                <span id="modal-site">${site ? `<a href="${site}" target="_blank">${site}</a>` : 'Não informado'}</span>
+            </div>
+            <div class="info-row">
+                <strong>Contato:</strong>
+                <span id="modal-contato">${contato || 'Não informado'}</span>
+            </div>
+        </div>
+        
+        <div class="modal-actions">
+            <button id="btn-visao-ia" class="btn-ai" onclick="executarVisaoIA('${nome}')">
+                <i class="fas fa-brain"></i>
+                Visão da IA
+            </button>
+        </div>
+    `;
     
-    // Centralizar no mapa se tiver coordenadas
-    if (instituicao.latitude && instituicao.longitude) {
-        map.setView([instituicao.latitude, instituicao.longitude], 12);
-    }
+    modal.style.display = 'flex';
 }
 
 // Fechar modal

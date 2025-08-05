@@ -1,0 +1,234 @@
+/* Estilos para funcionalidade Visão da IA */
+
+.ai-research-results {
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f2ff 100%);
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
+.ai-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #4a90e2;
+}
+
+.ai-header h4 {
+    color: #2c5aa0;
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.ai-header i {
+    color: #4a90e2;
+    margin-right: 8px;
+}
+
+.ai-content {
+    margin-bottom: 20px;
+}
+
+.ai-section {
+    margin-bottom: 20px;
+}
+
+.ai-section h5 {
+    color: #2c5aa0;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-left: 3px solid #4a90e2;
+    padding-left: 10px;
+}
+
+.ai-section p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.ai-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.ai-tag {
+    background: #4a90e2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.ai-tag.secondary {
+    background: #7bb3f0;
+}
+
+.ai-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ai-list li {
+    background: white;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border-left: 3px solid #4a90e2;
+    color: #555;
+}
+
+.ai-footer {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.ai-footer small {
+    color: #888;
+    font-style: italic;
+}
+
+.ai-footer i {
+    color: #4a90e2;
+    margin-right: 5px;
+}
+
+/* Loading da IA */
+.ai-loading {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.ai-loading .loading-spinner {
+    font-size: 3em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+.ai-loading h4 {
+    color: #2c5aa0;
+    margin-bottom: 10px;
+}
+
+.ai-loading p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.loading-bar {
+    width: 100%;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.loading-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #4a90e2, #7bb3f0, #4a90e2);
+    background-size: 200% 100%;
+    animation: loading-animation 2s infinite;
+}
+
+@keyframes loading-animation {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Erro da IA */
+.ai-error {
+    text-align: center;
+    padding: 40px 20px;
+    color: #d32f2f;
+}
+
+.ai-error i {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.ai-error h4 {
+    margin-bottom: 10px;
+}
+
+.ai-error p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn-retry {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btn-retry:hover {
+    background: #357abd;
+}
+
+/* Botão Visão da IA */
+.btn-ai {
+    background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(74, 144, 226, 0.3);
+}
+
+.btn-ai:hover {
+    background: linear-gradient(135deg, #357abd 0%, #2c5aa0 100%);
+    box-shadow: 0 4px 8px rgba(74, 144, 226, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-ai i {
+    font-size: 1.1em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .ai-research-results {
+        padding: 15px;
+        margin: 5px 0;
+    }
+    
+    .ai-tags {
+        gap: 5px;
+    }
+    
+    .ai-tag {
+        font-size: 0.8em;
+        padding: 4px 8px;
+    }
+    
+    .ai-loading {
+        padding: 30px 15px;
+    }
+    
+    .ai-loading .loading-spinner {
+        font-size: 2.5em;
+    }
+}
+
