@@ -62,7 +62,7 @@
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/portal/",
     "Contato": "gabinete.reitoria@unipampa.edu.br",
-    "latitude": -32.5662724,
+    "latitude": -32.5740386174657,
     "longitude": -53.3765705
   },
   {
@@ -85,7 +85,7 @@
     "Site": "https://ifrs.edu.br/riogrande/",
     "Contato": "gabinete@ifrs.edu.br",
     "latitude": -32.035,
-    "longitude": -52.0986
+    "longitude": -52.09163979312602
   },
   {
     "Cidade": "Capão do Leão",
@@ -117,8 +117,8 @@
     "Setor": "Não informado",
     "Site": "http://www.ifsul.edu.br/",
     "Contato": "gabinete.reitoria@ifsul.edu.br",
-    "latitude": -31.7654,
-    "longitude": -52.3376
+    "latitude": -31.762703204842865,
+    "longitude": -52.329300117941756
   },
   {
     "Cidade": "Pelotas",
@@ -128,8 +128,8 @@
     "Setor": "Não informado",
     "Site": "https://www.embrapa.br/clima-temperado",
     "Contato": "(53) 3275-8100",
-    "latitude": -31.7654,
-    "longitude": -52.3376
+    "latitude": -31.771341360704007,
+    "longitude": -52.33328334877432
   },
   {
     "Cidade": "São Lourenço do Sul",
@@ -162,7 +162,7 @@
     "Site": "https://intranet.ifsul.edu.br/catalogo/campus/2",
     "Contato": "gabinete.reitoria@ifsul.edu.br",
     "latitude": -31.3314,
-    "longitude": -54.1063
+    "longitude": -54.09946479914969
   },
   {
     "Cidade": "Bagé",
@@ -172,7 +172,7 @@
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/portal/",
     "Contato": "gabinete.reitoria@unipampa.edu.br",
-    "latitude": -31.3314,
+    "latitude": -31.337739885151507,
     "longitude": -54.1063
   },
   {
@@ -184,7 +184,7 @@
     "Site": "https://www.uergs.edu.br/bage",
     "Contato": "reitoria@uergs.edu.br",
     "latitude": -31.3314,
-    "longitude": -54.1063
+    "longitude": -54.11203050411406
   },
   {
     "Cidade": "Dom Pedrito",
@@ -216,8 +216,8 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/santana-do-livramento",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -30.8906,
-    "longitude": -55.5322
+    "latitude": -30.896169556233023,
+    "longitude": -55.52255324562879
   },
   {
     "Cidade": "Santana do Livramento",
@@ -227,8 +227,8 @@
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/livramento/",
     "Contato": "gabinete.reitoria@unipampa.edu.br",
-    "latitude": -30.8906,
-    "longitude": -55.5322
+    "latitude": -30.89660653568669,
+    "longitude": -55.542603624986825
   },
   {
     "Cidade": "Tapes",
@@ -293,7 +293,7 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/guaiba",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -30.1131,
+    "latitude": -30.118916651024218,
     "longitude": -51.3294
   },
   {
@@ -304,7 +304,7 @@
     "Setor": "Não informado",
     "Site": "https://cardiologia.org.br/",
     "Contato": "ouvidoria@cardiologia.org.br",
-    "latitude": -30.0811,
+    "latitude": -30.09092256390732,
     "longitude": -51.0233
   },
   {
@@ -326,8 +326,8 @@
     "Setor": "Não informado",
     "Site": "https://portal.pucrs.br/",
     "Contato": "tecnopuc@pucrs.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.01709026195211,
+    "longitude": -51.21044722902696
   },
   {
     "Cidade": "Porto Alegre",
@@ -337,8 +337,8 @@
     "Setor": "Não informado",
     "Site": "https://institutobesouro.com.br/",
     "Contato": "atendimento@agenciabesouro.com.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.023965396750267,
+    "longitude": -51.20706539675027
   },
   {
     "Cidade": "Cachoeira do Sul",
@@ -359,7 +359,7 @@
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/cachoeira-do-sul",
     "Contato": "ulbracachoeiradosul@ulbra.br",
-    "latitude": -30.0482,
+    "latitude": -30.05681355670938,
     "longitude": -52.8902
   },
   {
@@ -370,8 +370,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ufrgs.br/",
     "Contato": "gabinete@ufrgs.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.03094919783678,
+    "longitude": -51.20888618390401
   },
   {
     "Cidade": "Porto Alegre",
@@ -382,7 +382,7 @@
     "Site": "https://ufcspa.edu.br/estude-na-ufcspa/graduacao",
     "Contato": "dap@ufcspa.edu.br",
     "latitude": -30.0346,
-    "longitude": -51.2177
+    "longitude": -51.20349510701457
   },
   {
     "Cidade": "Porto Alegre",
@@ -392,8 +392,8 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.042025424975268,
+    "longitude": -51.199773438318324
   },
   {
     "Cidade": "Porto Alegre",
@@ -403,8 +403,8 @@
     "Setor": "Não informado",
     "Site": "https://www.unisinos.br/institucional/onde-estamos/porto-alegre",
     "Contato": "ouvidoria@unisinos.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.041357258988057,
+    "longitude": -51.21094274101194
   },
   {
     "Cidade": "Porto Alegre",
@@ -414,8 +414,8 @@
     "Setor": "Não informado",
     "Site": "https://poa.ifrs.edu.br/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.044763292706477,
+    "longitude": -51.21349022632261
   },
   {
     "Cidade": "Porto Alegre",
@@ -425,7 +425,7 @@
     "Setor": "Não informado",
     "Site": "https://www.softsul.org.br/",
     "Contato": "comcetportoalegre@gmail.com",
-    "latitude": -30.0346,
+    "latitude": -30.057301365906508,
     "longitude": -51.2177
   },
   {
@@ -458,8 +458,8 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/unidades/instituto-senai-de-tecnologia-em-alimentos-e-bebidas",
     "Contato": "ist.alimentosebebidas@senairs.org.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.043708743702712,
+    "longitude": -51.221472965177846
   },
   {
     "Cidade": "Porto Alegre",
@@ -469,8 +469,8 @@
     "Setor": "Não informado",
     "Site": "https://irga.rs.gov.br/",
     "Contato": "contato@irga.rs.gov.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.044352557980567,
+    "longitude": -51.22745255798057
   },
   {
     "Cidade": "Tramandaí",
@@ -491,8 +491,8 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/unidades/faculdade-senai",
     "Contato": "faculdadesenai@senairs.org.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.043313102702893,
+    "longitude": -51.238735290715674
   },
   {
     "Cidade": "Porto Alegre",
@@ -503,7 +503,7 @@
     "Site": "https://www.ielrs.org.br/home",
     "Contato": "leandro.luza@ielrs.org.br",
     "latitude": -30.0346,
-    "longitude": -51.2177
+    "longitude": -51.235123898606275
   },
   {
     "Cidade": "Vacaria",
@@ -524,8 +524,8 @@
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/vacaria/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -28.5103,
-    "longitude": -50.9356
+    "latitude": -28.513533826402472,
+    "longitude": -50.929998848368065
   },
   {
     "Cidade": "São Luiz Gonzaga",
@@ -546,7 +546,7 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/sao-luiz-gonzaga",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -28.4075,
+    "latitude": -28.412045288074452,
     "longitude": -54.9609
   },
   {
@@ -590,7 +590,7 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/panambi",
     "Contato": "(55) 3218-9800",
-    "latitude": -28.2925,
+    "latitude": -28.299540792691833,
     "longitude": -53.5019
   },
   {
@@ -601,7 +601,7 @@
     "Setor": "Não informado",
     "Site": "https://www.upf.br/carazinho",
     "Contato": "serupf@upf.br",
-    "latitude": -28.2982,
+    "latitude": -28.304160801585216,
     "longitude": -52.7942
   },
   {
@@ -623,8 +623,8 @@
     "Setor": "Não informado",
     "Site": "https://www.iffar.edu.br/santoangelo",
     "Contato": "(55) 3931-3900",
-    "latitude": -28.3000481,
-    "longitude": -54.2669971
+    "latitude": -28.30411344714718,
+    "longitude": -54.259955712190674
   },
   {
     "Cidade": "Passo Fundo",
@@ -646,7 +646,7 @@
     "Site": "https://passofundo.ifsul.edu.br/",
     "Contato": "gabinete.reitoria@ifsul.edu.br",
     "latitude": -28.2636,
-    "longitude": -52.4069
+    "longitude": -52.39358406515706
   },
   {
     "Cidade": "Passo Fundo",
@@ -656,7 +656,7 @@
     "Setor": "Não informado",
     "Site": "https://www.upf.br/",
     "Contato": "serupf@upf.br",
-    "latitude": -28.2636,
+    "latitude": -28.273031341420655,
     "longitude": -52.4069
   },
   {
@@ -689,7 +689,7 @@
     "Setor": "Não informado",
     "Site": "http://www.uri.br/",
     "Contato": "parque.uri@uricampus.br",
-    "latitude": -28.1475,
+    "latitude": -28.151180437405042,
     "longitude": -54.7384
   },
   {
@@ -766,7 +766,7 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/santa-rosa",
     "Contato": "55 3218-9815",
-    "latitude": -27.8644,
+    "latitude": -27.869763596033994,
     "longitude": -54.4779
   },
   {
@@ -811,7 +811,7 @@
     "Site": "https://www.uergs.edu.br/erechim",
     "Contato": "reitoria@uergs.edu.br",
     "latitude": -27.6351,
-    "longitude": -52.2739
+    "longitude": -52.26263093519207
   },
   {
     "Cidade": "Erechim",
@@ -821,7 +821,7 @@
     "Setor": "Não informado",
     "Site": "http://www.uri.br/",
     "Contato": "parque.uri@uricampus.br",
-    "latitude": -27.6351,
+    "latitude": -27.63992968304407,
     "longitude": -52.2739
   },
   {
@@ -833,7 +833,7 @@
     "Site": "https://ifrs.edu.br/erechim/",
     "Contato": "gabinete@ifrs.edu.br",
     "latitude": -27.6351,
-    "longitude": -52.2739
+    "longitude": -52.28634625677692
   },
   {
     "Cidade": "Três Passos",
@@ -854,7 +854,7 @@
     "Setor": "Não informado",
     "Site": "https://www.unijui.edu.br/",
     "Contato": "55-3332-0200",
-    "latitude": -27.4542,
+    "latitude": -27.4641142874435,
     "longitude": -53.9306
   },
   {
@@ -931,8 +931,8 @@
     "Setor": "Não informado",
     "Site": "https://www.lajeado.ifsul.edu.br/",
     "Contato": "gabinete.reitoria@ifsul.edu.br",
-    "latitude": -29.4672,
-    "longitude": -51.9624
+    "latitude": -29.47144977643805,
+    "longitude": -51.95503917128849
   },
   {
     "Cidade": "Sobradinho",
@@ -953,7 +953,7 @@
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-da-regiao-das-hortensias/",
     "Contato": "ucs@ucs.br",
-    "latitude": -29.3793,
+    "latitude": -29.385756386214627,
     "longitude": -50.8737
   },
   {
@@ -986,7 +986,7 @@
     "Setor": "Não informado",
     "Site": "https://www.univates.br/",
     "Contato": "parque@univates.br",
-    "latitude": -29.2393,
+    "latitude": -29.246250001409095,
     "longitude": -51.8745
   },
   {
@@ -1008,8 +1008,8 @@
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/farroupilha/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -29.2265,
-    "longitude": -51.3468
+    "latitude": -29.232543733745036,
+    "longitude": -51.33633194608618
   },
   {
     "Cidade": "Santiago",
@@ -1063,8 +1063,8 @@
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -29.1654,
-    "longitude": -51.5198
+    "latitude": -29.15816726739119,
+    "longitude": -51.50727253964398
   },
   {
     "Cidade": "Caxias do Sul",
@@ -1074,8 +1074,8 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/caxias-do-sul",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.16261658406005,
+    "longitude": -51.17222242976133
   },
   {
     "Cidade": "Bento Gonçalves",
@@ -1085,8 +1085,8 @@
     "Setor": "Não informado",
     "Site": "https://www.embrapa.br/uva-e-vinho",
     "Contato": "(54) 3455-8000",
-    "latitude": -29.1654,
-    "longitude": -51.5198
+    "latitude": -29.16814992830286,
+    "longitude": -51.51503698446228
   },
   {
     "Cidade": "Bento Gonçalves",
@@ -1096,7 +1096,7 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/institutos/madeira-e-mobiliario",
     "Contato": "istmem@senairs.org.br",
-    "latitude": -29.1654,
+    "latitude": -29.17821910753055,
     "longitude": -51.5198
   },
   {
@@ -1107,8 +1107,8 @@
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/bento/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -29.1654,
-    "longitude": -51.5198
+    "latitude": -29.168042450203924,
+    "longitude": -51.52437685800966
   },
   {
     "Cidade": "Caxias do Sul",
@@ -1118,8 +1118,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site",
     "Contato": "ucs@ucs.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.17019501787667,
+    "longitude": -51.17217364145373
   },
   {
     "Cidade": "Caxias do Sul",
@@ -1129,8 +1129,8 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/unidades/instituto-senai-de-tecnologia-em-mecatronica",
     "Contato": "ist.mecatronica@senairs.org.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.181972932382518,
+    "longitude": -51.17311177772367
   },
   {
     "Cidade": "Itaqui",
@@ -1151,8 +1151,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site",
     "Contato": "ucs@ucs.br",
-    "latitude": -29.1654,
-    "longitude": -51.5198
+    "latitude": -29.159242229983438,
+    "longitude": -51.53046557053001
   },
   {
     "Cidade": "Caxias do Sul",
@@ -1162,8 +1162,8 @@
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/caxias/",
     "Contato": "gabinete@ifrs.edu.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.180706770799453,
+    "longitude": -51.18547847099462
   },
   {
     "Cidade": "Guaporé",
@@ -1206,7 +1206,7 @@
     "Setor": "Não informado",
     "Site": "https://www.upf.br/soledade",
     "Contato": "serupf@upf.br",
-    "latitude": -28.8267,
+    "latitude": -28.831362720806066,
     "longitude": -52.5069
   },
   {
@@ -1228,8 +1228,8 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/sao-borja",
     "Contato": "(55) 3431-0500",
-    "latitude": -28.6611,
-    "longitude": -56.0044
+    "latitude": -28.66327311919706,
+    "longitude": -56.000636047139785
   },
   {
     "Cidade": "Ibirubá",
@@ -1250,8 +1250,8 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/sao-borja",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -28.6611,
-    "longitude": -56.0044
+    "latitude": -28.664533554637163,
+    "longitude": -56.010347091082124
   },
   {
     "Cidade": "Cruz Alta",
@@ -1272,7 +1272,7 @@
     "Setor": "Não informado",
     "Site": "https://home.unicruz.edu.br/",
     "Contato": "(55) 3043-0111",
-    "latitude": -28.645056,
+    "latitude": -28.65465889439212,
     "longitude": -53.6058047
   },
   {
@@ -1294,8 +1294,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-de-vacaria/",
     "Contato": "ucs@ucs.br",
-    "latitude": -28.5103,
-    "longitude": -50.9356
+    "latitude": -28.512381966016676,
+    "longitude": -50.93920607092051
   },
   {
     "Cidade": "São Jerônimo",
@@ -1360,7 +1360,7 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/litoral-norte-osorio",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -29.8890733,
+    "latitude": -29.89359651272409,
     "longitude": -50.2740498
   },
   {
@@ -1372,7 +1372,7 @@
     "Site": "https://www.ulbra.br/",
     "Contato": "ulbraportoalegre@ulbra.br",
     "latitude": -29.9167,
-    "longitude": -51.1833
+    "longitude": -51.17598984208943
   },
   {
     "Cidade": "Esteio",
@@ -1448,8 +1448,8 @@
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/alegrete/",
     "Contato": "gabinete.reitoria@unipampa.edu.br",
-    "latitude": -29.7902,
-    "longitude": -55.7949
+    "latitude": -29.786973384102076,
+    "longitude": -55.78496949737018
   },
   {
     "Cidade": "Alegrete",
@@ -1459,8 +1459,8 @@
     "Setor": "Não informado",
     "Site": "https://www.fundacaomaronna.org.br/",
     "Contato": "maronna.adm@gmail.com",
-    "latitude": -29.7902,
-    "longitude": -55.7949
+    "latitude": -29.794983939838843,
+    "longitude": -55.79142426425566
   },
   {
     "Cidade": "São Leopoldo",
@@ -1470,8 +1470,8 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/unidades/instituto-senai-de-inovacao-em-sistemas-de-sensoriamento",
     "Contato": "isisim@senairs.org.br",
-    "latitude": -29.7603,
-    "longitude": -51.1472
+    "latitude": -29.756944295205738,
+    "longitude": -51.14138774880113
   },
   {
     "Cidade": "Uruguaiana",
@@ -1481,7 +1481,7 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/uruguaiana",
     "Contato": "(55) 99965-9843.",
-    "latitude": -29.7547,
+    "latitude": -29.75965436821996,
     "longitude": -57.0883
   },
   {
@@ -1492,8 +1492,8 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/institutos/engenharia-de-polimeros",
     "Contato": "isipol@senairs.org.br",
-    "latitude": -29.7603,
-    "longitude": -51.1472
+    "latitude": -29.765610581468312,
+    "longitude": -51.13800180307915
   },
   {
     "Cidade": "Alegrete",
@@ -1503,8 +1503,8 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/alegrete",
     "Contato": "(55) 99998-9174",
-    "latitude": -29.7902,
-    "longitude": -55.7949
+    "latitude": -29.80248735955537,
+    "longitude": -55.80382728927387
   },
   {
     "Cidade": "Santa Maria",
@@ -1514,8 +1514,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ufsm.br/",
     "Contato": "gabinete@ufsm.br",
-    "latitude": -29.6842,
-    "longitude": -53.8069
+    "latitude": -29.678503861617866,
+    "longitude": -53.797033998915204
   },
   {
     "Cidade": "Montenegro",
@@ -1548,7 +1548,7 @@
     "Site": "http://www.ibtec.org.br/",
     "Contato": "ibtec@ibtec.org.br",
     "latitude": -29.6783,
-    "longitude": -51.1306
+    "longitude": -51.11903689559745
   },
   {
     "Cidade": "São Vicente do Sul",
@@ -1580,8 +1580,8 @@
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/",
     "Contato": "(55) 3218-9800",
-    "latitude": -29.2265,
-    "longitude": -51.3468
+    "latitude": -29.229346673115323,
+    "longitude": -51.35173058246828
   },
   {
     "Cidade": "Santa Cruz do Sul",
@@ -1592,7 +1592,7 @@
     "Site": "https://www.uergs.edu.br/santa-cruz-do-sul",
     "Contato": "reitoria@uergs.edu.br",
     "latitude": -29.7175,
-    "longitude": -52.4264
+    "longitude": -52.42111537980547
   },
   {
     "Cidade": "Capão da Canoa",
@@ -1613,8 +1613,8 @@
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/santa-maria",
     "Contato": "ulbrasantamaria@ulbra.br",
-    "latitude": -29.6842,
-    "longitude": -53.8069
+    "latitude": -29.688958513327158,
+    "longitude": -53.79865801314887
   },
   {
     "Cidade": "Santa Maria",
@@ -1624,7 +1624,7 @@
     "Setor": "Não informado",
     "Site": "https://www.ufn.edu.br/",
     "Contato": "propesq@ufn.edu.br",
-    "latitude": -29.6842,
+    "latitude": -29.696253314082863,
     "longitude": -53.8069
   },
   {
@@ -1635,7 +1635,7 @@
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/montenegro",
     "Contato": "reitoria@uergs.edu.br",
-    "latitude": -29.6881,
+    "latitude": -29.691422409857744,
     "longitude": -51.4611
   },
   {
@@ -1646,7 +1646,7 @@
     "Setor": "Não informado",
     "Site": "https://www.senairs.org.br/unidades/instituto-senai-em-calcado-e-logistica-industrial",
     "Contato": "ist.calcadoelogistica@senairs.org.br",
-    "latitude": -29.6783,
+    "latitude": -29.692160085640154,
     "longitude": -51.1306
   },
   {
@@ -1658,7 +1658,7 @@
     "Site": "https://www.feevale.br/",
     "Contato": "techpark@feevale.br",
     "latitude": -29.6783,
-    "longitude": -51.1306
+    "longitude": -51.13804851163188
   },
   {
     "Cidade": "Campo Bom",
@@ -1734,7 +1734,7 @@
     "Setor": "Não informado",
     "Site": "https://www.venancio.ifsul.edu.br/",
     "Contato": "gabinete.reitoria@ifsul.edu.br",
-    "latitude": -29.6058,
+    "latitude": -29.614063133451904,
     "longitude": -52.1942
   },
   {
@@ -1844,8 +1844,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/produtos-conectados-cesar/",
     "Contato": "georgia.barbosa@cesar.org.br",
-    "latitude": -8.0584933,
-    "longitude": -34.8848193
+    "latitude": -8.056740605949082,
+    "longitude": -34.879425062373784
   },
   {
     "Cidade": "Florianópolis/SC",
@@ -1855,8 +1855,8 @@
     "Setor": "Saúde e Dispositivos Médicos",
     "Site": "https://embrapii.org.br/unidades/farmacos-e-medicamentos-cienp/",
     "Contato": "jarbas.siqueira@cienp.org.br",
-    "latitude": -27.5954,
-    "longitude": -48.548
+    "latitude": -27.590418520154277,
+    "longitude": -48.53937182381033
   },
   {
     "Cidade": "Salvador/BA",
@@ -1877,7 +1877,7 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/polimeros-e-materiais-cim-unifesp/",
     "Contato": "embrapii@cin.ufpe.br",
-    "latitude": -23.2237,
+    "latitude": -23.231563747947686,
     "longitude": -45.9009
   },
   {
@@ -1888,8 +1888,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/tecnologia-e-sistemas-veiculares-cin-ufpe/",
     "Contato": "claudia.caparelli@cnpem.br",
-    "latitude": -8.0584933,
-    "longitude": -34.8848193
+    "latitude": -8.067710160258262,
+    "longitude": -34.878122859047686
   },
   {
     "Cidade": "Campinas/SP",
@@ -1921,8 +1921,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-de-comunicaces-avancadas-cpqd/",
     "Contato": "contato@embrapii.dcc.ufmg.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.902077862932607,
+    "longitude": -47.05638337981368
   },
   {
     "Cidade": "Campinas/SP",
@@ -1932,8 +1932,8 @@
     "Setor": "Saúde e Dispositivos Médicos",
     "Site": "https://embrapii.org.br/unidades/biofarmacos-e-farmacos-cqmed/",
     "Contato": "rmaciel@unicamp.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.909409652377995,
+    "longitude": -47.04410882235221
   },
   {
     "Cidade": "Santo André/SP",
@@ -1965,8 +1965,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/software-para-sistemas-ciberfisicos-dcc-ufmg/",
     "Contato": "embrapii@fmrp.usp.br",
-    "latitude": -19.9167,
-    "longitude": -43.9345
+    "latitude": -19.912838746264384,
+    "longitude": -43.922616282945036
   },
   {
     "Cidade": "Maceió/AL",
@@ -1987,8 +1987,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/inteligencia-embarcada-eldorado/",
     "Contato": "novosnegocios.polo@ifam.edu.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.915819884323405,
+    "longitude": -47.0558783631027
   },
   {
     "Cidade": "Brasília/DF",
@@ -2020,8 +2020,8 @@
     "Setor": "Biotecnologia e Bioeconomia",
     "Site": "https://embrapii.org.br/unidades/processamento-de-biomassa-para-biocombustiveis-e-renova-unicamp/",
     "Contato": "leandro.freitas@ifg.edu.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.919753451161743,
+    "longitude": -47.06761594284803
   },
   {
     "Cidade": "Piracicaba/SP",
@@ -2053,7 +2053,7 @@
     "Setor": "Tecnologia da informação e comunicação (TIC); indústria criativa; materiais e nanotecnologia; ciências da saúde e biotecnologia; ciências ambientais e energias renováveis",
     "Site": "https://feevaletechpark.com.br/",
     "Contato": "poloinovacao@ifsc.edu.br",
-    "latitude": -29.6784,
+    "latitude": -29.684200557291476,
     "longitude": -51.0572
   },
   {
@@ -2075,8 +2075,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-de-viso-computacional-inteligencia-artificial-e-conectividade-fitec-bh/",
     "Contato": "embrapii@ifsp.edu.br",
-    "latitude": -19.9167,
-    "longitude": -43.9345
+    "latitude": -19.92660848696179,
+    "longitude": -43.92730106283407
   },
   {
     "Cidade": "Campinas/SP",
@@ -2086,8 +2086,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/equipamentos-digitais-para-manufatura-inteligente-fitec-campinas/",
     "Contato": "embrapii@ufsm.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.90818811445016,
+    "longitude": -47.072139270299296
   },
   {
     "Cidade": "Ribeirão Preto/SP",
@@ -2108,7 +2108,7 @@
     "Setor": "Biotecnologia/bioprocessos (reuso de água, bioenergia); agro & proteínas de insetos; inteligência de dados e IA; cibersegurança e redes; marketing digital e economia criativa",
     "Site": "https://gauten.com.br/",
     "Contato": "embrapii@int.gov.br",
-    "latitude": -29.7175,
+    "latitude": -29.72699591784809,
     "longitude": -52.4264
   },
   {
@@ -2130,8 +2130,8 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/materiais-polimericos-e-nanomateriais-graphene-ucs/",
     "Contato": "embrapii@ipt.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.17101982386862,
+    "longitude": -51.19064006971219
   },
   {
     "Cidade": "São Carlos/SP",
@@ -2142,7 +2142,7 @@
     "Site": "https://embrapii.org.br/unidades/ciencia-de-dados-computaco-e-matematica-aplicada-icmc-usp-sc/",
     "Contato": "ue-iqsint@iq.usp.br",
     "latitude": -22.0175,
-    "longitude": -47.8908
+    "longitude": -47.88393271777444
   },
   {
     "Cidade": "Manaus/AM",
@@ -2163,7 +2163,7 @@
     "Setor": "Saúde e Dispositivos Médicos",
     "Site": "https://embrapii.org.br/unidades/tecnologia-em-saude-if-ba/",
     "Contato": "cortez@lesc.ufc.br",
-    "latitude": -12.9822499,
+    "latitude": -12.992240842347746,
     "longitude": -38.4812772
   },
   {
@@ -2207,7 +2207,7 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/tecnologias-energeticas-industriais-if-goias/",
     "Contato": "rafael.trevisan@sp.senai.br",
-    "latitude": -16.6950914,
+    "latitude": -16.701470046116313,
     "longitude": -49.2096091
   },
   {
@@ -2229,7 +2229,7 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/sistemas-para-manufatura-if-pb/",
     "Contato": "frutas@ufpa.br",
-    "latitude": -7.1375601,
+    "latitude": -7.144373168710261,
     "longitude": -34.8467226
   },
   {
@@ -2251,8 +2251,8 @@
     "Setor": "Energia e Sustentabilidade",
     "Site": "https://embrapii.org.br/unidades/sistemas-inteligentes-de-energia-if-sc-fln/",
     "Contato": "poloinovacao@ifsc.edu.br",
-    "latitude": -27.5954,
-    "longitude": -48.548
+    "latitude": -27.60157056582565,
+    "longitude": -48.53731226647853
   },
   {
     "Cidade": "Matão/SP",
@@ -2295,7 +2295,7 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/sistemas-para-automaco-da-manufatura-indt/",
     "Contato": "Marx.santos@indt.org.br",
-    "latitude": -3.0739478,
+    "latitude": -3.0822867037912913,
     "longitude": -60.0893432
   },
   {
@@ -2306,8 +2306,8 @@
     "Setor": "Agricultura. Agroindústria e Alimentos",
     "Site": "https://embrapii.org.br/unidades/tecnologias-para-a-agricultura-inovaagro-ufpel/",
     "Contato": "inovaagro.embrapii@gmail.com",
-    "latitude": -31.7654,
-    "longitude": -52.3376
+    "latitude": -31.77744828308774,
+    "longitude": -52.34635359005269
   },
   {
     "Cidade": "Belo Horizonte/MG",
@@ -2317,8 +2317,8 @@
     "Setor": "Saúde e Dispositivos Médicos",
     "Site": "https://embrapii.org.br/unidades/farmacos-e-biofarmacos-inovaco-de-farmacos-e-vacinas-ufmg/",
     "Contato": "sinisterra@ufmg.br",
-    "latitude": -19.9167,
-    "longitude": -43.9345
+    "latitude": -19.927950307805997,
+    "longitude": -43.94267382707421
   },
   {
     "Cidade": "Santa Maria/RS",
@@ -2328,8 +2328,8 @@
     "Setor": "Energia e Sustentabilidade",
     "Site": "https://embrapii.org.br/unidades/energia-e-mobilidade-inri-ufsm/",
     "Contato": "embrapii@ufsm.br",
-    "latitude": -29.6842,
-    "longitude": -53.8069
+    "latitude": -29.68921282025763,
+    "longitude": -53.81558245937542
   },
   {
     "Cidade": "Fortaleza/CE",
@@ -2339,8 +2339,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/manufatura-inteligente-instituto-atlantico/",
     "Contato": "embrapii@atlantico.com.br",
-    "latitude": -3.7304512,
-    "longitude": -38.5217989
+    "latitude": -3.7347012565478654,
+    "longitude": -38.51443758612405
   },
   {
     "Cidade": "Rio de Janeiro/RJ",
@@ -2350,8 +2350,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/tecnologia-quimica-industrial-int/",
     "Contato": "embrapii@int.gov.br",
-    "latitude": -22.9068,
-    "longitude": -43.1729
+    "latitude": -22.90103456702798,
+    "longitude": -43.16291397716483
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2361,8 +2361,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/escalonamento-e-desenvolvimento-de-processos-biotecnologicos-ipt-bio/",
     "Contato": "embrapii@ipt.br",
-    "latitude": -23.5505,
-    "longitude": -46.6333
+    "latitude": -23.54458116751675,
+    "longitude": -46.627381167516745
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2373,7 +2373,7 @@
     "Site": "https://embrapii.org.br/unidades/materiais-alto-desempenho-ipt-materiais/",
     "Contato": "embrapii@ipt.br",
     "latitude": -23.5505,
-    "longitude": -46.6333
+    "longitude": -46.62182407471217
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2383,8 +2383,8 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/insumos-quimicos-e-bioquimicos-sinteticos-iq-usp/",
     "Contato": "ue-iqsint@iq.usp.br",
-    "latitude": -23.5505,
-    "longitude": -46.6333
+    "latitude": -23.554966788505265,
+    "longitude": -46.62883321149474
   },
   {
     "Cidade": "Rio Grande/RS",
@@ -2394,7 +2394,7 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-roboticos-e-automaco-itec-furg/",
     "Contato": "itec@furg.br",
-    "latitude": -32.035,
+    "latitude": -32.03946568917932,
     "longitude": -52.0986
   },
   {
@@ -2416,8 +2416,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-embarcados-complexos-lesc-ufc/",
     "Contato": "cortez@lesc.ufc.br",
-    "latitude": -3.7304512,
-    "longitude": -38.5217989
+    "latitude": -3.734774848653884,
+    "longitude": -38.529287679142605
   },
   {
     "Cidade": "Recife/PE",
@@ -2427,8 +2427,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/modelagem-de-reservatorios-e-otimizaco-robusta-aplicada-a-recursos-energeticos-e-meio-ambiente-litpeg-ufpe/",
     "Contato": "embrapii.litpeg@ufpe.br",
-    "latitude": -8.0584933,
-    "longitude": -34.8848193
+    "latitude": -8.06516012817037,
+    "longitude": -34.88966303419267
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2438,7 +2438,7 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/soluces-integradas-para-aplicaces-em-internet-das-coisas-e-manufatura-40-lsi-tec/",
     "Contato": "delane.dias@lsitec.org.br",
-    "latitude": -23.5505,
+    "latitude": -23.56723231456675,
     "longitude": -46.6333
   },
   {
@@ -2460,7 +2460,7 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/maquinas-e-equipamentos-para-mobilidade-move-ufsc/",
     "Contato": "move@contato.ufsc.br",
-    "latitude": -27.5954,
+    "latitude": -27.60812657787214,
     "longitude": -48.548
   },
   {
@@ -2471,7 +2471,7 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/desenvolvimento-de-hardware-e-software-para-saude-nutes-uepb/",
     "Contato": "embrapii.nutes@setor.uepb.edu.br",
-    "latitude": -7.2407038,
+    "latitude": -7.245267377587812,
     "longitude": -35.8980565
   },
   {
@@ -2483,7 +2483,7 @@
     "Site": "https://oceantec.furg.br/",
     "Contato": "oceantec@furg.br",
     "latitude": -32.035,
-    "longitude": -52.0986
+    "longitude": -52.10976836373314
   },
   {
     "Cidade": "Alegrete/RS",
@@ -2493,8 +2493,8 @@
     "Setor": "Eletrônica e microeletrônica; desenvolvimento de software; soluções de TI; projetos de engenharia civil e mecânica; geoprocessamento; tecnologia agropecuária",
     "Site": "https://sites.unipampa.edu.br/pampatec/",
     "Contato": "pampatec@unipampa.edu.br",
-    "latitude": -29.7902,
-    "longitude": -55.7949
+    "latitude": -29.786275006523066,
+    "longitude": -55.80697988780747
   },
   {
     "Cidade": "Canoas/RS",
@@ -2504,7 +2504,7 @@
     "Setor": "Atração de grandes empresas tradicionais e inovadoras; centros de P&D; instituições de ciência e tecnologia; startups",
     "Site": "https://www.canoas.rs.gov.br/pci/",
     "Contato": "(51) 3425-7604",
-    "latitude": -29.9167,
+    "latitude": -29.922380046660678,
     "longitude": -51.1833
   },
   {
@@ -2515,8 +2515,8 @@
     "Setor": "TIC; tecnologia em saúde; indústria criativa; biotecnologia; automação; inteligência artificial",
     "Site": "https://pelotasparquetecnologico.com.br/",
     "Contato": "contato@pelotasparquetecnologico.com.br",
-    "latitude": -31.7654,
-    "longitude": -52.3376
+    "latitude": -31.76380673153758,
+    "longitude": -52.34250357611708
   },
   {
     "Cidade": "São Leopoldo/RS",
@@ -2526,7 +2526,7 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/polimeros-polimeros/",
     "Contato": "jordao.gheller@senairs.org.br",
-    "latitude": -29.7603,
+    "latitude": -29.77353151683153,
     "longitude": -51.1472
   },
   {
@@ -2537,8 +2537,8 @@
     "Setor": "Energia e Sustentabilidade",
     "Site": "https://embrapii.org.br/unidades/refrigeraco-vibraco-acustica-e-energia-polo-ufsc/",
     "Contato": "embrapii@polo.ufsc.br",
-    "latitude": -27.5954,
-    "longitude": -48.548
+    "latitude": -27.603612270976985,
+    "longitude": -48.562224070577656
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2548,8 +2548,8 @@
     "Setor": "Mobilidade e Transporte",
     "Site": "https://embrapii.org.br/unidades/tecnologias-aplicadas-a-powertrains-powertrain-usp/",
     "Contato": "powertrain@usp.br",
-    "latitude": -23.5505,
-    "longitude": -46.6333
+    "latitude": -23.556717504680627,
+    "longitude": -46.639517504680626
   },
   {
     "Cidade": "Gravatai/RS",
@@ -2570,8 +2570,8 @@
     "Setor": "Construção. Mineração e Cadeias Produtivas",
     "Site": "https://embrapii.org.br/unidades/tecnologia-mineral-promexbio-cetem/",
     "Contato": "arizzo@cetem.gov.br",
-    "latitude": -22.9068,
-    "longitude": -43.1729
+    "latitude": -22.909676017355398,
+    "longitude": -43.167918591817006
   },
   {
     "Cidade": "Santa Maria/RS",
@@ -2581,8 +2581,8 @@
     "Setor": "Desenvolvimento de software; defesa e segurança; formação profissional; impressão 3D (manufatura aditiva)",
     "Site": "https://santamariatecnoparque.com.br/",
     "Contato": "gestor@santamariatecnoparque.com.br",
-    "latitude": -29.6842,
-    "longitude": -53.8069
+    "latitude": -29.675788418024172,
+    "longitude": -53.82146928735416
   },
   {
     "Cidade": "Três Lagoas/MS",
@@ -2603,7 +2603,7 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/inovaco-em-biossinteticos-fibras-e-intensificaco-de-processos-quimicos-senai-isi-biossinteticos/",
     "Contato": "tmoreti@firjan.com.br",
-    "latitude": -22.9068,
+    "latitude": -22.918196463343044,
     "longitude": -43.1729
   },
   {
@@ -2614,7 +2614,7 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/eletroquimica-industrial-senai-isi-eletroquimica/",
     "Contato": "embrapii.isieletroquimica@sistemafiep.org.br",
-    "latitude": -25.4244,
+    "latitude": -25.430966416278732,
     "longitude": -49.2654
   },
   {
@@ -2625,8 +2625,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-embarcados-senai-isi-embarcados/",
     "Contato": "isiembarcados@sc.senai.br",
-    "latitude": -27.5954,
-    "longitude": -48.548
+    "latitude": -27.589276784679484,
+    "longitude": -48.55860572004082
   },
   {
     "Cidade": "Maringá/PR",
@@ -2658,8 +2658,8 @@
     "Setor": "Indústria e Manufatura",
     "Site": "https://embrapii.org.br/unidades/acos-e-ligas-especiais-senai-isi-ligas-especiais/",
     "Contato": "jose.luciano@fiemg.com.br",
-    "latitude": -19.9167,
-    "longitude": -43.9345
+    "latitude": -19.91351661623583,
+    "longitude": -43.944297447803486
   },
   {
     "Cidade": "Rio de Janeiro/RJ",
@@ -2669,8 +2669,8 @@
     "Setor": "Biotecnologia e Bioeconomia",
     "Site": "https://embrapii.org.br/unidades/tecnologias-em-quimica-verde-senai-isi-quimica-verde/",
     "Contato": "aaneto@firjan.com.br",
-    "latitude": -22.9068,
-    "longitude": -43.1729
+    "latitude": -22.911053779814416,
+    "longitude": -43.180267762762774
   },
   {
     "Cidade": "São Leopoldo/RS",
@@ -2680,8 +2680,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-de-sensoriamento-senai-isi-sensoriamento/",
     "Contato": "vitor.nardelli@senairs.org.br",
-    "latitude": -29.7603,
-    "longitude": -51.1472
+    "latitude": -29.766939680639066,
+    "longitude": -51.15870026421289
   },
   {
     "Cidade": "Recife/PE",
@@ -2691,8 +2691,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-de-inteligencia-geoespacial-senai-isi-tics/",
     "Contato": "diego.vieira@sistemafiepe.org.br",
-    "latitude": -8.0584933,
-    "longitude": -34.8848193
+    "latitude": -8.056814060341921,
+    "longitude": -34.88998746825064
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2703,7 +2703,7 @@
     "Site": "https://embrapii.org.br/unidades/tecnologias-de-materiais-sustentaveis-senai-sp-isi-materiais-avancados/",
     "Contato": "rafael.trevisan@sp.senai.br",
     "latitude": -23.5505,
-    "longitude": -46.6333
+    "longitude": -46.64527180461032
   },
   {
     "Cidade": "Porto Alegre/RS",
@@ -2713,8 +2713,8 @@
     "Setor": "Processos de manufatura: conformação mecânica, fundição e soldagem; instrumentação e automação; gestão tecnológica para Indústria 4.0",
     "Site": "https://embrapii.org.br/unidades/mobilidade-incluindo-eletro-mobilidade-simob-ufrgs/",
     "Contato": "simob@ufrgs.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.027821917341754,
+    "longitude": -51.234063739080426
   },
   {
     "Cidade": "Rio de Janeiro/RJ",
@@ -2724,8 +2724,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/soluces-computacionais-em-engenharia-tecgraf/",
     "Contato": "contato.embrapii@tecgraf.puc-rio.br",
-    "latitude": -22.9068,
-    "longitude": -43.1729
+    "latitude": -22.903880696427404,
+    "longitude": -43.17795638211045
   },
   {
     "Cidade": "São Paulo/SP",
@@ -2735,8 +2735,8 @@
     "Setor": "Biotecnologia e Bioeconomia",
     "Site": "https://embrapii.org.br/unidades/tecnologias-verdes-tecnogreen/",
     "Contato": "tecnogreen@usp.br",
-    "latitude": -23.5505,
-    "longitude": -46.6333
+    "latitude": -23.545356774224633,
+    "longitude": -46.63844322577537
   },
   {
     "Cidade": "Porto Alegre/RS",
@@ -2746,8 +2746,8 @@
     "Setor": "Indústria criativa; TIC; ciências da vida; energia e meio ambiente",
     "Site": "https://tecnopuc.pucrs.br/",
     "Contato": "tecnopuc.comunicacao@pucrs.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.019613667790548,
+    "longitude": -51.232686332209454
   },
   {
     "Cidade": "São Leopoldo/RS",
@@ -2757,8 +2757,8 @@
     "Setor": "Tecnologia da informação; semicondutores; automação e engenharia; comunicação digital e convergência; tecnologia em saúde; energia renovável e tecnologia ambiental",
     "Site": "https://www.tecnosinos.com.br/",
     "Contato": "unitec@unisinos.br",
-    "latitude": -29.7603,
-    "longitude": -51.1472
+    "latitude": -29.75331343504,
+    "longitude": -51.1593010854811
   },
   {
     "Cidade": "Caxias do Sul/RS",
@@ -2768,8 +2768,8 @@
     "Setor": "Materiais inteligentes e nanotecnologia; Desenvolvimento em Grafeno; saúde & biotecnologia; agtech & foodtech; mobilidade; IA & digital (IA, big data, IoT); cidades inteligentes; edtechs;",
     "Site": "https://www.ucs.br/site/tecnoucs/",
     "Contato": "tecnoucs@ucs.br",
-    "latitude": -29.1685,
-    "longitude": -51.1796
+    "latitude": -29.162528981505233,
+    "longitude": -51.187087420367895
   },
   {
     "Cidade": "Santa Cruz do Sul/RS",
@@ -2780,7 +2780,7 @@
     "Site": "https://www.unisc.br/pt/inovacao-inicio/die-quem-somos-tecno",
     "Contato": "tecnounisc@unisc.br",
     "latitude": -29.7175,
-    "longitude": -52.4264
+    "longitude": -52.43213664561796
   },
   {
     "Cidade": "Santo Ângelo/RS",
@@ -2790,8 +2790,8 @@
     "Setor": "Cidades inteligentes e mobilidade; acessibilidade e inclusão; meio ambiente; saúde e segurança; educação e economia; energia; governança e empreendedorismo",
     "Site": "https://san.uri.br/tecnouri/index.php/o-parque/",
     "Contato": "(55) 3313-9524",
-    "latitude": -28.3,
-    "longitude": -54.267
+    "latitude": -28.303332580724888,
+    "longitude": -54.27268598749198
   },
   {
     "Cidade": "Lajeado/RS",
@@ -2801,8 +2801,8 @@
     "Setor": "Tecnologia de alimentos; tecnologias ambientais e de energia; saúde e bem‑estar; apoio de TI e indústria criativa",
     "Site": "https://www.univates.br/tecnovates/",
     "Contato": "tecnovates@univates.br",
-    "latitude": -29.4672,
-    "longitude": -51.9624
+    "latitude": -29.471511897312215,
+    "longitude": -51.96986842522178
   },
   {
     "Cidade": "Belem/PA",
@@ -2823,7 +2823,7 @@
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/materiais-avancados-ufscar-materiais/",
     "Contato": "embrapii@ufscar.br",
-    "latitude": -22.0175,
+    "latitude": -22.026641891542454,
     "longitude": -47.8908
   },
   {
@@ -2846,7 +2846,7 @@
     "Site": "https://www.ulbra.br/ulbratech",
     "Contato": "redeulbratech@ulbra.br",
     "latitude": -29.9167,
-    "longitude": -51.1833
+    "longitude": -51.19555975085234
   },
   {
     "Cidade": "Passo Fundo/RS",
@@ -2857,7 +2857,7 @@
     "Site": "https://www.upf.br/upfparque",
     "Contato": "upfparque@upf.br",
     "latitude": -28.2636,
-    "longitude": -52.4069
+    "longitude": -52.41779709643305
   },
   {
     "Cidade": "São Carlos/SP",
@@ -2868,7 +2868,7 @@
     "Site": "https://embrapii.org.br/unidades/biofotonica-e-instrumentaco-usp-ifsc/",
     "Contato": "embrapii@ifsc.usp.br",
     "latitude": -22.0175,
-    "longitude": -47.8908
+    "longitude": -47.89605536264889
   },
   {
     "Cidade": "Campinas/SP",
@@ -2878,8 +2878,8 @@
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/iot-e-manufatura-40-vbl-iot-e-industria-40-von-braun/",
     "Contato": "mribeiro@vonbraunlabs.com.br",
-    "latitude": -22.9056,
-    "longitude": -47.0608
+    "latitude": -22.89818423372977,
+    "longitude": -47.070099076776245
   },
   {
     "Cidade": "Porto Alegre/RS",
@@ -2889,8 +2889,8 @@
     "Setor": "Multissetorial: tecnologias de informação e comunicação (ICT/fintech), biotecnologia & saúde, agrotech & alimentos, energias renováveis & sustentabilidade, mobilidade/logística, indústrias criativas",
     "Site": "https://www.ufrgs.br/empreendedorismo/empreendedorismo-ufrgs/parque-cientifico-tecnologicor/",
     "Contato": "empreendedor@ufrgs.br",
-    "latitude": -30.0346,
-    "longitude": -51.2177
+    "latitude": -30.016243993141018,
+    "longitude": -51.225303306992004
   },
   {
     "Cidade": "Lavras/MG",
