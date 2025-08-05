@@ -258,7 +258,7 @@ function resetFilters() {
 
 // Atualizar lista de resultados
 function updateResultsList() {
-    const resultsList = document.getElementById('results-list');
+    const resultsList = document.getElementById('institutions-list');
     const resultsCount = document.getElementById('results-count');
     
     resultsCount.textContent = `${filteredInstituicoes.length} resultados`;
