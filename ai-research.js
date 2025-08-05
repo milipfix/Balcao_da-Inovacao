@@ -176,10 +176,72 @@ function exibirResultadosIA(dados) {
             <div class="ai-footer">
                 <small><i class="fas fa-info-circle"></i> Informações geradas por IA baseadas em dados públicos</small>
             </div>
+            
+            <div class="modal-actions">
+                <button class="btn-back" onclick="voltarParaDetalhes()">
+                    <i class="fas fa-arrow-left"></i>
+                    Voltar aos Detalhes
+                </button>
+                <button id="btn-visao-ia" class="btn-ai" onclick="executarVisaoIA('${dados.instituicao}')">
+                    <i class="fas fa-brain"></i>
+                    Atualizar IA
+                </button>
+            </div>
         </div>
     `;
     
     modalBody.innerHTML = resultadosHTML;
+}
+
+// Função para voltar aos detalhes da instituição
+function voltarParaDetalhes() {
+    // Encontrar a instituição atual pelos dados globais
+    const nomeAtual = currentInstitutionName;
+    const instituicao = filteredInstituicoes.find(inst => 
+        inst['Nome da Instituição/Tipo'] === nomeAtual
+    );
+    
+    if (instituicao) {
+        const modalBody = document.getElementById('modal-body');
+        const tipo = instituicao.Tipo || 'Não informado';
+        const cidade = instituicao.Cidade || 'Não informado';
+        const estado = instituicao.Estado || 'Não informado';
+        const site = instituicao.Site;
+        const contato = instituicao.Contato;
+        const setor = instituicao.Setor || 'Não informado';
+        
+        modalBody.innerHTML = `
+            <div class="modal-info">
+                <div class="info-row">
+                    <strong>Tipo:</strong>
+                    <span id="modal-tipo">${tipo}</span>
+                </div>
+                <div class="info-row">
+                    <strong>Localização:</strong>
+                    <span id="modal-cidade">${cidade}, ${estado}</span>
+                </div>
+                <div class="info-row">
+                    <strong>Setor:</strong>
+                    <span id="modal-setor">${setor}</span>
+                </div>
+                <div class="info-row">
+                    <strong>Site:</strong>
+                    <span id="modal-site">${site ? `<a href="${site}" target="_blank">${site}</a>` : 'Não informado'}</span>
+                </div>
+                <div class="info-row">
+                    <strong>Contato:</strong>
+                    <span id="modal-contato">${contato || 'Não informado'}</span>
+                </div>
+            </div>
+            
+            <div class="modal-actions">
+                <button id="btn-visao-ia" class="btn-ai" onclick="executarVisaoIA('${nomeAtual}')">
+                    <i class="fas fa-brain"></i>
+                    Visão da IA
+                </button>
+            </div>
+        `;
+    }
 }
 
 // Função para mostrar loading da IA

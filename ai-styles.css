@@ -232,3 +232,59 @@
     }
 }
 
+
+/* Botão Voltar */
+.btn-back {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(108, 117, 125, 0.3);
+    margin-right: 10px;
+}
+
+.btn-back:hover {
+    background: linear-gradient(135deg, #495057 0%, #343a40 100%);
+    box-shadow: 0 4px 8px rgba(108, 117, 125, 0.4);
+    transform: translateY(-1px);
+}
+
+.btn-back i {
+    font-size: 1.1em;
+}
+
+/* Ajustar espaçamento dos botões */
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .modal-actions {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .btn-back {
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .btn-ai {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
