@@ -314,24 +314,8 @@ function showModal(index) {
     // Salvar nome da instituição para a IA
     currentInstitutionName = nome;
     
+    // SEMPRE resetar o modal para o estado inicial
     document.getElementById('modal-title').textContent = nome;
-    document.getElementById('modal-tipo').textContent = tipo;
-    document.getElementById('modal-cidade').textContent = `${cidade}, ${estado}`;
-    document.getElementById('modal-setor').textContent = setor;
-    
-    const modalSite = document.getElementById('modal-site');
-    if (site) {
-        modalSite.innerHTML = `<a href="${site}" target="_blank">${site}</a>`;
-    } else {
-        modalSite.textContent = 'Não informado';
-    }
-    
-    const modalContato = document.getElementById('modal-contato');
-    if (contato) {
-        modalContato.textContent = contato;
-    } else {
-        modalContato.textContent = 'Não informado';
-    }
     
     // Resetar conteúdo do modal para mostrar informações básicas
     const modalBody = document.getElementById('modal-body');
