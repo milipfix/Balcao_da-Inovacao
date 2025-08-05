@@ -5,19 +5,20 @@ let instituicoes = [];
 let filteredInstituicoes = [];
 let currentMarkers = [];
 
-// Configurações do mapa
-const RS_CENTER = [-29.5, -53.0];
-const RS_BOUNDS = [
-    [-33.8, -57.7], // Southwest
-    [-27.0, -49.7]  // Northeast
+// Configurações do mapa - Agora para todo o Brasil
+const BRASIL_CENTER = [-15.0, -47.0];
+const BRASIL_BOUNDS = [
+    [-35.0, -75.0], // Southwest
+    [5.0, -30.0]    // Northeast
 ];
 
-// Cores para diferentes tipos de instituições
+// Cores para diferentes tipos de instituições (baseado na coluna Tipo)
 const MARKER_COLORS = {
-    'ict': '#2563eb',
-    'parque': '#10b981',
-    'embrapii': '#f59e0b',
-    'outros': '#64748b'
+    'ICT': '#2563eb',              // Azul
+    'Instituto Embrapii': '#dc2626', // Vermelho
+    'Parque Tecnológico': '#16a34a', // Verde
+    'Instituto Privado': '#7c3aed',  // Roxo
+    'Outros': '#6b7280'             // Cinza
 };
 
 // Inicialização quando a página carrega
@@ -31,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
 // Inicializar o mapa
 function initializeMap() {
     map = L.map('map', {
-        center: RS_CENTER,
-        zoom: 7,
-        maxBounds: RS_BOUNDS,
+        center: BRASIL_CENTER,
+        zoom: 5,
+        maxBounds: BRASIL_BOUNDS,
         maxBoundsViscosity: 1.0
     });
 
@@ -41,7 +42,7 @@ function initializeMap() {
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 18,
-        minZoom: 6
+        minZoom: 4
     }).addTo(map);
 
     // Criar layer group para os marcadores
@@ -52,38 +53,27 @@ function initializeMap() {
 async function loadData() {
     try {
         console.log('Carregando dados das instituições...');
-        
-        const response = await fetch('./data.json');
+        const response = await fetch('data.json');
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         
-        const allData = await response.json();
-        console.log(`Total de instituições carregadas: ${allData.length}`);
-        
-        // Filtrar apenas instituições do RS com coordenadas válidas
-        instituicoes = allData.filter(inst => {
-            const isRS = inst.Estado === 'RS';
-            const hasCoords = inst.latitude && inst.longitude && 
-                             inst.latitude !== null && inst.longitude !== null;
-            return isRS && hasCoords;
-        });
-        
-        console.log(`Instituições do RS com coordenadas: ${instituicoes.length}`);
+        instituicoes = await response.json();
+        console.log(`${instituicoes.length} instituições carregadas`);
         
         filteredInstituicoes = [...instituicoes];
         
         updateStats();
         populateFilters();
         displayMarkers();
-        displayInstitutionsList();
+        updateResultsList();
         hideLoading();
         
     } catch (error) {
         console.error('Erro ao carregar dados:', error);
         hideLoading();
-        showError('Erro ao carregar os dados das instituições. Verifique se o arquivo data.json está presente.');
+        showError('Erro ao carregar dados das instituições. Tente novamente mais tarde.');
     }
 }
 
@@ -91,10 +81,7 @@ async function loadData() {
 function setupEventListeners() {
     // Busca
     const searchInput = document.getElementById('search-input');
-    const clearSearch = document.getElementById('clear-search');
-    
-    searchInput.addEventListener('input', handleSearch);
-    clearSearch.addEventListener('click', clearSearchInput);
+    searchInput.addEventListener('input', debounce(applyFilters, 300));
     
     // Filtros
     document.getElementById('tipo-filter').addEventListener('change', applyFilters);
@@ -120,8 +107,8 @@ function setupEventListeners() {
 function updateStats() {
     document.getElementById('total-instituicoes').textContent = instituicoes.length;
     
-    const cidadesUnicas = new Set(instituicoes.map(inst => inst.Cidade));
-    document.getElementById('total-cidades').textContent = cidadesUnicas.size;
+    const estadosUnicos = new Set(instituicoes.map(inst => inst.Estado));
+    document.getElementById('total-cidades').textContent = estadosUnicos.size;
 }
 
 // Popular filtros
@@ -129,8 +116,8 @@ function populateFilters() {
     const tipoFilter = document.getElementById('tipo-filter');
     const cidadeFilter = document.getElementById('cidade-filter');
     
-    // Tipos únicos
-    const tipos = new Set(instituicoes.map(inst => inst.Setor || 'Outros').filter(Boolean));
+    // Tipos únicos (baseado na coluna Tipo)
+    const tipos = new Set(instituicoes.map(inst => inst.Tipo || 'Outros').filter(Boolean));
     tipos.forEach(tipo => {
         const option = document.createElement('option');
         option.value = tipo;
@@ -138,35 +125,24 @@ function populateFilters() {
         tipoFilter.appendChild(option);
     });
     
-    // Cidades únicas
-    const cidades = new Set(instituicoes.map(inst => inst.Cidade).filter(Boolean));
-    Array.from(cidades).sort().forEach(cidade => {
+    // Estados únicos
+    const estados = new Set(instituicoes.map(inst => inst.Estado).filter(Boolean));
+    Array.from(estados).sort().forEach(estado => {
         const option = document.createElement('option');
-        option.value = cidade;
-        option.textContent = cidade;
+        option.value = estado;
+        option.textContent = estado;
         cidadeFilter.appendChild(option);
     });
 }
 
 // Determinar tipo de instituição para cor do marcador
 function getInstitutionType(instituicao) {
-    const setor = (instituicao.Setor || '').toLowerCase();
-    const nome = (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase();
-    
-    if (setor.includes('ict') || nome.includes('universidade') || nome.includes('instituto')) {
-        return 'ict';
-    } else if (setor.includes('parque') || nome.includes('parque')) {
-        return 'parque';
-    } else if (setor.includes('embrapii') || nome.includes('embrapii')) {
-        return 'embrapii';
-    } else {
-        return 'outros';
-    }
+    return instituicao.Tipo || 'Outros';
 }
 
 // Criar ícone customizado para marcador
 function createCustomIcon(type) {
-    const color = MARKER_COLORS[type];
+    const color = MARKER_COLORS[type] || MARKER_COLORS['Outros'];
     
     return L.divIcon({
         className: 'custom-marker',
@@ -201,201 +177,72 @@ function displayMarkers() {
         
         const marker = L.marker([instituicao.latitude, instituicao.longitude], { icon })
             .bindPopup(createPopupContent(instituicao))
-            .on('click', () => highlightInstitution(index));
+            .addTo(markersLayer);
         
-        markersLayer.addLayer(marker);
-        currentMarkers.push({ marker, instituicao, index });
+        currentMarkers.push(marker);
     });
 }
 
 // Criar conteúdo do popup
 function createPopupContent(instituicao) {
     const nome = instituicao['Nome da Instituição/Tipo'] || 'Nome não disponível';
-    const cidade = instituicao.Cidade || 'Cidade não informada';
-    const setor = instituicao.Setor || 'Tipo não informado';
+    const tipo = instituicao.Tipo || 'Não informado';
+    const cidade = instituicao.Cidade || 'Não informado';
+    const estado = instituicao.Estado || 'Não informado';
     const site = instituicao.Site;
-    const email = instituicao['E-mail de contato'];
+    const contato = instituicao.Contato;
     
-    let content = `
-        <div style="min-width: 250px;">
-            <h4 style="margin: 0 0 8px 0; color: #1e293b; font-size: 14px; font-weight: 600; line-height: 1.3;">
-                ${nome}
-            </h4>
-            <div style="margin-bottom: 6px;">
-                <span style="display: inline-block; background: rgba(37, 99, 235, 0.1); color: #2563eb; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500;">
-                    ${setor}
-                </span>
+    let popupContent = `
+        <div class="popup-content">
+            <h3 class="popup-title">${nome}</h3>
+            <div class="popup-info">
+                <p><strong>Tipo:</strong> ${tipo}</p>
+                <p><strong>Localização:</strong> ${cidade}, ${estado}</p>
+    `;
+    
+    if (contato) {
+        popupContent += `<p><strong>Contato:</strong> ${contato}</p>`;
+    }
+    
+    popupContent += `
             </div>
-            <p style="margin: 0 0 8px 0; color: #64748b; font-size: 12px;">
-                <i class="fas fa-map-marker-alt" style="margin-right: 4px;"></i>
-                ${cidade}, RS
-            </p>
+            <div class="popup-actions">
     `;
     
     if (site) {
-        content += `
-            <p style="margin: 0 0 6px 0;">
-                <a href="${site}" target="_blank" style="color: #2563eb; text-decoration: none; font-size: 12px;">
-                    <i class="fas fa-external-link-alt" style="margin-right: 4px;"></i>
-                    Visitar site
-                </a>
-            </p>
-        `;
+        popupContent += `<a href="${site}" target="_blank" class="btn-link">Visitar site</a>`;
     }
     
-    if (email) {
-        content += `
-            <p style="margin: 0 0 6px 0;">
-                <a href="mailto:${email}" style="color: #2563eb; text-decoration: none; font-size: 12px;">
-                    <i class="fas fa-envelope" style="margin-right: 4px;"></i>
-                    ${email}
-                </a>
-            </p>
-        `;
-    }
-    
-    content += `
-            <button onclick="showInstitutionDetails(${filteredInstituicoes.indexOf(instituicao)})" 
-                    style="margin-top: 8px; padding: 6px 12px; background: #2563eb; color: white; border: none; border-radius: 4px; font-size: 11px; cursor: pointer;">
-                Ver detalhes
-            </button>
+    popupContent += `
+                <button onclick="showModal(${filteredInstituicoes.indexOf(instituicao)})" class="btn-details">Ver detalhes</button>
+            </div>
         </div>
     `;
     
-    return content;
-}
-
-// Exibir lista de instituições
-function displayInstitutionsList() {
-    const container = document.getElementById('institutions-list');
-    const noResults = document.getElementById('no-results');
-    const resultsCount = document.getElementById('results-count');
-    
-    // Atualizar contador
-    resultsCount.textContent = `${filteredInstituicoes.length} resultado${filteredInstituicoes.length !== 1 ? 's' : ''}`;
-    
-    if (filteredInstituicoes.length === 0) {
-        container.style.display = 'none';
-        noResults.style.display = 'block';
-        return;
-    }
-    
-    container.style.display = 'block';
-    noResults.style.display = 'none';
-    
-    container.innerHTML = '';
-    
-    filteredInstituicoes.forEach((instituicao, index) => {
-        const card = document.createElement('div');
-        card.className = 'institution-card';
-        card.onclick = () => selectInstitution(index);
-        
-        const nome = instituicao['Nome da Instituição/Tipo'] || 'Nome não disponível';
-        const cidade = instituicao.Cidade || 'Cidade não informada';
-        const setor = instituicao.Setor || 'Outros';
-        
-        card.innerHTML = `
-            <div class="institution-name">${nome}</div>
-            <div class="institution-type">${setor}</div>
-            <div class="institution-location">
-                <i class="fas fa-map-marker-alt"></i>
-                ${cidade}, RS
-            </div>
-        `;
-        
-        container.appendChild(card);
-    });
-}
-
-// Selecionar instituição na lista
-function selectInstitution(index) {
-    // Remover seleção anterior
-    document.querySelectorAll('.institution-card').forEach(card => {
-        card.classList.remove('active');
-    });
-    
-    // Adicionar seleção atual
-    const cards = document.querySelectorAll('.institution-card');
-    if (cards[index]) {
-        cards[index].classList.add('active');
-    }
-    
-    // Centralizar no mapa
-    const instituicao = filteredInstituicoes[index];
-    if (instituicao.latitude && instituicao.longitude) {
-        map.setView([instituicao.latitude, instituicao.longitude], 12);
-        
-        // Abrir popup do marcador correspondente
-        const markerData = currentMarkers.find(m => m.index === index);
-        if (markerData) {
-            markerData.marker.openPopup();
-        }
-    }
-}
-
-// Destacar instituição quando marcador é clicado
-function highlightInstitution(index) {
-    selectInstitution(index);
-    
-    // Scroll para o item na lista
-    const cards = document.querySelectorAll('.institution-card');
-    if (cards[index]) {
-        cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-}
-
-// Busca
-function handleSearch() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
-    const clearBtn = document.getElementById('clear-search');
-    
-    clearBtn.style.display = searchTerm ? 'block' : 'none';
-    
-    applyFilters();
-}
-
-// Limpar busca
-function clearSearchInput() {
-    document.getElementById('search-input').value = '';
-    document.getElementById('clear-search').style.display = 'none';
-    applyFilters();
+    return popupContent;
 }
 
 // Aplicar filtros
 function applyFilters() {
-    const searchTerm = document.getElementById('search-input').value.toLowerCase().trim();
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
     const tipoFilter = document.getElementById('tipo-filter').value;
-    const cidadeFilter = document.getElementById('cidade-filter').value;
+    const estadoFilter = document.getElementById('cidade-filter').value;
     
     filteredInstituicoes = instituicoes.filter(instituicao => {
-        // Filtro de busca
-        if (searchTerm) {
-            const nome = (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase();
-            const cidade = (instituicao.Cidade || '').toLowerCase();
-            const setor = (instituicao.Setor || '').toLowerCase();
-            
-            if (!nome.includes(searchTerm) && 
-                !cidade.includes(searchTerm) && 
-                !setor.includes(searchTerm)) {
-                return false;
-            }
-        }
+        const matchesSearch = !searchTerm || 
+            (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase().includes(searchTerm) ||
+            (instituicao.Cidade || '').toLowerCase().includes(searchTerm) ||
+            (instituicao.Estado || '').toLowerCase().includes(searchTerm) ||
+            (instituicao.Tipo || '').toLowerCase().includes(searchTerm);
         
-        // Filtro de tipo
-        if (tipoFilter && (instituicao.Setor || 'Outros') !== tipoFilter) {
-            return false;
-        }
+        const matchesTipo = !tipoFilter || (instituicao.Tipo || 'Outros') === tipoFilter;
+        const matchesEstado = !estadoFilter || instituicao.Estado === estadoFilter;
         
-        // Filtro de cidade
-        if (cidadeFilter && instituicao.Cidade !== cidadeFilter) {
-            return false;
-        }
-        
-        return true;
+        return matchesSearch && matchesTipo && matchesEstado;
     });
     
     displayMarkers();
-    displayInstitutionsList();
+    updateResultsList();
 }
 
 // Resetar filtros
@@ -403,70 +250,84 @@ function resetFilters() {
     document.getElementById('search-input').value = '';
     document.getElementById('tipo-filter').value = '';
     document.getElementById('cidade-filter').value = '';
-    document.getElementById('clear-search').style.display = 'none';
     
     filteredInstituicoes = [...instituicoes];
     displayMarkers();
-    displayInstitutionsList();
-    
-    // Voltar para visualização geral do RS
-    map.setView(RS_CENTER, 7);
+    updateResultsList();
 }
 
-// Mostrar detalhes da instituição em modal
-function showInstitutionDetails(index) {
+// Atualizar lista de resultados
+function updateResultsList() {
+    const resultsList = document.getElementById('results-list');
+    const resultsCount = document.getElementById('results-count');
+    
+    resultsCount.textContent = `${filteredInstituicoes.length} resultados`;
+    
+    resultsList.innerHTML = '';
+    
+    filteredInstituicoes.forEach((instituicao, index) => {
+        const item = document.createElement('div');
+        item.className = 'result-item';
+        item.onclick = () => showModal(index);
+        
+        const nome = instituicao['Nome da Instituição/Tipo'] || 'Nome não disponível';
+        const tipo = instituicao.Tipo || 'Não informado';
+        const cidade = instituicao.Cidade || 'Não informado';
+        const estado = instituicao.Estado || 'Não informado';
+        
+        item.innerHTML = `
+            <h4>${nome}</h4>
+            <p class="result-type">${tipo}</p>
+            <p class="result-location">${cidade}, ${estado}</p>
+        `;
+        
+        resultsList.appendChild(item);
+    });
+}
+
+// Mostrar modal com detalhes
+function showModal(index) {
     const instituicao = filteredInstituicoes[index];
     const modal = document.getElementById('institution-modal');
-    const title = document.getElementById('modal-title');
-    const body = document.getElementById('modal-body');
     
-    title.textContent = instituicao['Nome da Instituição/Tipo'] || 'Instituição';
+    const nome = instituicao['Nome da Instituição/Tipo'] || 'Nome não disponível';
+    const tipo = instituicao.Tipo || 'Não informado';
+    const cidade = instituicao.Cidade || 'Não informado';
+    const estado = instituicao.Estado || 'Não informado';
+    const site = instituicao.Site;
+    const contato = instituicao.Contato;
+    const setor = instituicao.Setor || 'Não informado';
     
-    body.innerHTML = `
-        <div class="modal-field">
-            <label>Tipo:</label>
-            <div class="value">${instituicao.Setor || 'Não informado'}</div>
-        </div>
-        
-        <div class="modal-field">
-            <label>Cidade:</label>
-            <div class="value">${instituicao.Cidade || 'Não informada'}, RS</div>
-        </div>
-        
-        ${instituicao.Site ? `
-        <div class="modal-field">
-            <label>Site oficial:</label>
-            <div class="value">
-                <a href="${instituicao.Site}" target="_blank">${instituicao.Site}</a>
-            </div>
-        </div>
-        ` : ''}
-        
-        ${instituicao['E-mail de contato'] ? `
-        <div class="modal-field">
-            <label>E-mail de contato:</label>
-            <div class="value">
-                <a href="mailto:${instituicao['E-mail de contato']}">${instituicao['E-mail de contato']}</a>
-            </div>
-        </div>
-        ` : ''}
-        
-        ${instituicao['Abreviatura da Instituição'] ? `
-        <div class="modal-field">
-            <label>Abreviatura:</label>
-            <div class="value">${instituicao['Abreviatura da Instituição']}</div>
-        </div>
-        ` : ''}
-    `;
+    document.getElementById('modal-title').textContent = nome;
+    document.getElementById('modal-tipo').textContent = tipo;
+    document.getElementById('modal-cidade').textContent = `${cidade}, ${estado}`;
+    document.getElementById('modal-setor').textContent = setor;
+    
+    const modalSite = document.getElementById('modal-site');
+    if (site) {
+        modalSite.innerHTML = `<a href="${site}" target="_blank">${site}</a>`;
+    } else {
+        modalSite.textContent = 'Não informado';
+    }
+    
+    const modalContato = document.getElementById('modal-contato');
+    if (contato) {
+        modalContato.textContent = contato;
+    } else {
+        modalContato.textContent = 'Não informado';
+    }
     
     modal.style.display = 'flex';
-    document.body.style.overflow = 'hidden';
+    
+    // Centralizar no mapa se tiver coordenadas
+    if (instituicao.latitude && instituicao.longitude) {
+        map.setView([instituicao.latitude, instituicao.longitude], 12);
+    }
 }
 
 // Fechar modal
 function closeModal() {
     document.getElementById('institution-modal').style.display = 'none';
-    document.body.style.overflow = 'auto';
 }
 
 // Mostrar loading
@@ -481,21 +342,26 @@ function hideLoading() {
 
 // Mostrar erro
 function showError(message) {
-    alert(message); // Em produção, usar um toast ou modal mais elegante
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'error-message';
+    errorDiv.textContent = message;
+    document.body.appendChild(errorDiv);
+    
+    setTimeout(() => {
+        document.body.removeChild(errorDiv);
+    }, 5000);
 }
 
-// Funções para footer
-function showAbout() {
-    alert('Painel de Instituições de Ciência, Tecnologia e Inovação do Rio Grande do Sul\n\nEste painel permite visualizar e consultar informações sobre instituições de CT&I localizadas no estado do Rio Grande do Sul.');
+// Debounce function
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
 }
-
-function showContact() {
-    alert('Para mais informações ou sugestões, entre em contato através do GitHub do projeto.');
-}
-
-// Tornar funções globais para uso nos event handlers inline
-window.showInstitutionDetails = showInstitutionDetails;
-window.closeModal = closeModal;
-window.showAbout = showAbout;
-window.showContact = showContact;
 

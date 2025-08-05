@@ -313,6 +313,7 @@ body {
 .legend-marker.ict { background-color: var(--primary-color); }
 .legend-marker.parque { background-color: var(--success-color); }
 .legend-marker.embrapii { background-color: var(--accent-color); }
+.legend-marker.privado { background-color: #7c3aed; }
 .legend-marker.outros { background-color: var(--secondary-color); }
 
 /* Panel de Instituições */

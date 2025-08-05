@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Painel de Instituições de CT&I - Rio Grande do Sul</title>
+    <title>Painel de Instituições de CT&I - Brasil</title>
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
@@ -26,7 +26,7 @@
             <div class="header-content">
                 <div class="logo">
                     <i class="fas fa-university"></i>
-                    <h1>Instituições de CT&I - RS</h1>
+                    <h1>Instituições de CT&I - Brasil</h1>
                 </div>
                 <div class="header-stats">
                     <div class="stat">
@@ -35,7 +35,7 @@
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="total-cidades">0</span>
-                        <span class="stat-label">Cidades</span>
+                        <span class="stat-label">Estados</span>
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <div class="search-container">
                     <div class="search-box">
                         <i class="fas fa-search"></i>
-                        <input type="text" id="search-input" placeholder="Buscar por nome, tipo ou cidade...">
+                        <input type="text" id="search-input" placeholder="Buscar por nome, tipo ou estado...">
                         <button id="clear-search" class="clear-btn" style="display: none;">
                             <i class="fas fa-times"></i>
                         </button>
@@ -66,9 +66,9 @@
                     </div>
                     
                     <div class="filter-group">
-                        <label for="cidade-filter">Cidade:</label>
+                        <label for="cidade-filter">Estado:</label>
                         <select id="cidade-filter">
-                            <option value="">Todas as cidades</option>
+                            <option value="">Todos os estados</option>
                         </select>
                     </div>
                     
@@ -96,7 +96,11 @@
                         </div>
                         <div class="legend-item">
                             <div class="legend-marker embrapii"></div>
-                            <span>Embrapii</span>
+                            <span>Instituto Embrapii</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-marker privado"></div>
+                            <span>Instituto Privado</span>
                         </div>
                         <div class="legend-item">
                             <div class="legend-marker outros"></div>
