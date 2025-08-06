@@ -2902,5 +2902,16 @@
     "Contato": "embrapii.zetta@ufla.br",
     "latitude": -21.2425512,
     "longitude": -44.9991978
+  },
+  {
+    "Nome da Instituição/Tipo": "Centro de Competência Embrapii em Agricultura Digital (ISI Sensoriamento)",
+    "Tipo": "Instituto Embrapii",
+    "Cidade": "São Leopoldo",
+    "Estado": "RS",
+    "Site": "https://embrapii.org.br/centro-competencia/centro-de-competencia-embrapii-em-agricultura-digital-instituto-senai-de-inovacao-em-sistemas-de-sensoriamento/",
+    "Contato": "(51) 3904-2690",
+    "Setor": "Agricultura Digital e Sensoriamento",
+    "lat": -29.7544405,
+    "lon": -51.1516497
   }
 ]
