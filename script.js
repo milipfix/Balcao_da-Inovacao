@@ -208,7 +208,10 @@ function createPopupContent(instituicao) {
         </div>
     `;
     
-    return popup// Aplicar filtros
+    return popupContent;
+}
+
+// Aplicar filtros
 function applyFilters() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     
@@ -237,7 +240,14 @@ function applyFilters() {
         const matchesEstado = selectedFilters.estado.length === 0 || 
             selectedFilters.estado.includes(instituicao.Estado);
         
-        return matchesSearch && ma// Resetar filtros
+        return matchesSearch && matchesTipo && matchesSetor && matchesEstado;
+    });
+    
+    displayMarkers();
+    updateResultsList();
+}
+
+// Resetar filtros
 function resetFilters() {
     document.getElementById('search-input').value = '';
     resetMultiSelectFilters();
@@ -245,7 +255,9 @@ function resetFilters() {
     filteredInstituicoes = [...instituicoes];
     displayMarkers();
     updateResultsList();
-}/ Atualizar lista de resultados
+}
+
+// Atualizar lista de resultados
 function updateResultsList() {
     const resultsList = document.getElementById('institutions-list');
     const resultsCount = document.getElementById('results-count');
@@ -273,6 +285,7 @@ function updateResultsList() {
         resultsList.appendChild(item);
     });
 }
+
 // Mostrar modal com detalhes
 function showModal(index) {
     const instituicao = filteredInstituicoes[index];
