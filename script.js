@@ -26,8 +26,12 @@ const MARKER_COLORS = {
 document.addEventListener('DOMContentLoaded', function() {
     showLoading();
     initializeMap();
-    loadData();
     setupEventListeners();
+    
+    // Aguardar um pouco para garantir que o mapa esteja totalmente inicializado
+    setTimeout(() => {
+        loadData();
+    }, 100);
 });
 
 // Inicializar o mapa
@@ -155,6 +159,12 @@ function createCustomIcon(type) {
 
 // Exibir marcadores no mapa
 function displayMarkers() {
+    // Verificar se o mapa e markersLayer estão inicializados
+    if (!map || !markersLayer) {
+        console.error('Mapa ou markersLayer não inicializados');
+        return;
+    }
+    
     // Limpar marcadores existentes
     markersLayer.clearLayers();
     currentMarkers = [];
