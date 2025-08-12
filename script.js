@@ -83,9 +83,7 @@ function setupEventListeners() {
     const searchInput = document.getElementById('search-input');
     searchInput.addEventListener('input', debounce(applyFilters, 300));
     
-    // Filtros
-    document.getElementById('tipo-filter').addEventListener('change', applyFilters);
-    document.getElementById('cidade-filter').addEventListener('change', applyFilters);
+    // Reset filters
     document.getElementById('reset-filters').addEventListener('click', resetFilters);
     
     // Modal
@@ -113,36 +111,17 @@ function updateStats() {
 
 // Popular filtros
 function populateFilters() {
-    const tipoFilter = document.getElementById('tipo-filter');
-    const setorFilter = document.getElementById('setor-filter');
-    const cidadeFilter = document.getElementById('cidade-filter');
-    
     // Tipos únicos (baseado na coluna Tipo)
-    const tipos = new Set(instituicoes.map(inst => inst.Tipo || 'Outros').filter(Boolean));
-    tipos.forEach(tipo => {
-        const option = document.createElement('option');
-        option.value = tipo;
-        option.textContent = tipo;
-        tipoFilter.appendChild(option);
-    });
+    const tipos = [...new Set(instituicoes.map(inst => inst.Tipo))].filter(Boolean).sort();
+    populateMultiSelectOptions('tipo', tipos);
     
-    // Setores únicos (baseado na coluna Setor)
-    const setores = new Set(instituicoes.map(inst => inst.Setor || 'Não informado').filter(Boolean));
-    Array.from(setores).sort().forEach(setor => {
-        const option = document.createElement('option');
-        option.value = setor;
-        option.textContent = setor.length > 50 ? setor.substring(0, 50) + '...' : setor;
-        setorFilter.appendChild(option);
-    });
+    // Setores únicos
+    const setores = [...new Set(instituicoes.map(inst => inst.Setor))].filter(Boolean).sort();
+    populateMultiSelectOptions('setor', setores);
     
     // Estados únicos
-    const estados = new Set(instituicoes.map(inst => inst.Estado).filter(Boolean));
-    Array.from(estados).sort().forEach(estado => {
-        const option = document.createElement('option');
-        option.value = estado;
-        option.textContent = estado;
-        cidadeFilter.appendChild(option);
-    });
+    const estados = [...new Set(instituicoes.map(inst => inst.Estado))].filter(Boolean).sort();
+    populateMultiSelectOptions('estado', estados);
 }
 
 // Determinar tipo de instituição para cor do marcador
@@ -229,48 +208,44 @@ function createPopupContent(instituicao) {
         </div>
     `;
     
-    return popupContent;
-}
-
-// Aplicar filtros
+    return popup// Aplicar filtros
 function applyFilters() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const tipoFilter = document.getElementById('tipo-filter').value;
-    const setorFilter = document.getElementById('setor-filter').value;
-    const estadoFilter = document.getElementById('cidade-filter').value;
     
     filteredInstituicoes = instituicoes.filter(instituicao => {
+        // Filtro de busca
+        const nome = (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase();
+        const tipo = (instituicao.Tipo || '').toLowerCase();
+        const cidade = (instituicao.Cidade || '').toLowerCase();
+        const estado = (instituicao.Estado || '').toLowerCase();
+        const setor = (instituicao.Setor || '').toLowerCase();
+        
         const matchesSearch = !searchTerm || 
-            (instituicao['Nome da Instituição/Tipo'] || '').toLowerCase().includes(searchTerm) ||
-            (instituicao.Cidade || '').toLowerCase().includes(searchTerm) ||
-            (instituicao.Estado || '').toLowerCase().includes(searchTerm) ||
-            (instituicao.Tipo || '').toLowerCase().includes(searchTerm) ||
-            (instituicao.Setor || '').toLowerCase().includes(searchTerm);
+            nome.includes(searchTerm) || 
+            tipo.includes(searchTerm) || 
+            cidade.includes(searchTerm) || 
+            estado.includes(searchTerm) ||
+            setor.includes(searchTerm);
         
-        const matchesTipo = !tipoFilter || (instituicao.Tipo || 'Outros') === tipoFilter;
-        const matchesSetor = !setorFilter || (instituicao.Setor || 'Não informado') === setorFilter;
-        const matchesEstado = !estadoFilter || instituicao.Estado === estadoFilter;
+        // Filtros múltiplos
+        const matchesTipo = selectedFilters.tipo.length === 0 || 
+            selectedFilters.tipo.includes(instituicao.Tipo);
         
-        return matchesSearch && matchesTipo && matchesSetor && matchesEstado;
-    });
-    
-    displayMarkers();
-    updateResultsList();
-}
-
-// Resetar filtros
+        const matchesSetor = selectedFilters.setor.length === 0 || 
+            selectedFilters.setor.includes(instituicao.Setor);
+        
+        const matchesEstado = selectedFilters.estado.length === 0 || 
+            selectedFilters.estado.includes(instituicao.Estado);
+        
+        return matchesSearch && ma// Resetar filtros
 function resetFilters() {
     document.getElementById('search-input').value = '';
-    document.getElementById('tipo-filter').value = '';
-    document.getElementById('setor-filter').value = '';
-    document.getElementById('cidade-filter').value = '';
+    resetMultiSelectFilters();
     
     filteredInstituicoes = [...instituicoes];
     displayMarkers();
     updateResultsList();
-}
-
-// Atualizar lista de resultados
+}/ Atualizar lista de resultados
 function updateResultsList() {
     const resultsList = document.getElementById('institutions-list');
     const resultsCount = document.getElementById('results-count');

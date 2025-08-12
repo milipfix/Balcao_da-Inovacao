@@ -59,24 +59,54 @@
                 
                 <div class="filters-container">
                     <div class="filter-group">
-                        <label for="tipo-filter">Tipo:</label>
-                        <select id="tipo-filter" onchange="applyFilters()">
-                            <option value="">Todos os tipos</option>
-                        </select>
+                        <label>Tipo:</label>
+                        <div class="multi-select-container">
+                            <div class="multi-select-header" onclick="toggleMultiSelect('tipo')">
+                                <span id="tipo-selected">Todos os tipos</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="multi-select-dropdown" id="tipo-dropdown">
+                                <div class="multi-select-option">
+                                    <input type="checkbox" id="tipo-all" checked onchange="toggleSelectAll('tipo')">
+                                    <label for="tipo-all">Todos os tipos</label>
+                                </div>
+                                <div id="tipo-options"></div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="filter-group">
-                        <label for="setor-filter">Setor:</label>
-                        <select id="setor-filter" onchange="applyFilters()">
-                            <option value="">Todos os setores</option>
-                        </select>
+                        <label>Setor:</label>
+                        <div class="multi-select-container">
+                            <div class="multi-select-header" onclick="toggleMultiSelect('setor')">
+                                <span id="setor-selected">Todos os setores</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="multi-select-dropdown" id="setor-dropdown">
+                                <div class="multi-select-option">
+                                    <input type="checkbox" id="setor-all" checked onchange="toggleSelectAll('setor')">
+                                    <label for="setor-all">Todos os setores</label>
+                                </div>
+                                <div id="setor-options"></div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="filter-group">
-                        <label for="cidade-filter">Estado:</label>
-                        <select id="cidade-filter" onchange="applyFilters()">
-                            <option value="">Todos os estados</option>
-                        </select>
+                        <label>Estado:</label>
+                        <div class="multi-select-container">
+                            <div class="multi-select-header" onclick="toggleMultiSelect('estado')">
+                                <span id="estado-selected">Todos os estados</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="multi-select-dropdown" id="estado-dropdown">
+                                <div class="multi-select-option">
+                                    <input type="checkbox" id="estado-all" checked onchange="toggleSelectAll('estado')">
+                                    <label for="estado-all">Todos os estados</label>
+                                </div>
+                                <div id="estado-options"></div>
+                            </div>
+                        </div>
                     </div>
                     
                     <button id="reset-filters" class="reset-btn">
@@ -213,8 +243,9 @@
             crossorigin=""></script>
     
     <!-- JavaScript customizado -->
-    <script src="ai-research.js"></script>
     <script src="script.js"></script>
+    <script src="multi-select.js"></script>
+    <script src="ai-research.js"></script>
 </body>
 </html>
 
