@@ -15,9 +15,10 @@ const BRASIL_BOUNDS = [
 // Cores para diferentes tipos de instituições (baseado na coluna Tipo)
 const MARKER_COLORS = {
     'ICT': '#2563eb',              // Azul
+    'IFS': '#059669',              // Verde escuro
+    'Universidades': '#7c3aed',    // Roxo
     'Instituto Embrapii': '#dc2626', // Vermelho
     'Parque Tecnológico': '#16a34a', // Verde
-    'Instituto Privado': '#7c3aed',  // Roxo
     'Outros': '#6b7280'             // Cinza
 };
 

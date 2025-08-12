@@ -2,7 +2,7 @@
   {
     "Cidade": "Jaguarão do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Jaguarão",
     "Setor": "Não informado",
     "Site": "https://www.jaguarao.ifsul.edu.br/",
@@ -13,7 +13,7 @@
   {
     "Cidade": "Camaquã",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Camaqua",
     "Setor": "Não informado",
     "Site": "https://intranet.ifsul.edu.br/catalogo/campus/3",
@@ -24,7 +24,7 @@
   {
     "Cidade": "Viamão",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Viamão",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/viamao/",
@@ -35,7 +35,7 @@
   {
     "Cidade": "São Borja",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa - Campus São Borja",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/portal/",
@@ -46,7 +46,7 @@
   {
     "Cidade": "Santa Vitória do Palmar",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande - Campus Santa Vitória do Palmar",
     "Setor": "Não informado",
     "Site": "https://campussvp.furg.br/",
@@ -57,7 +57,7 @@
   {
     "Cidade": "Jaguarão do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa - Campus Jaguarão",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/portal/",
@@ -68,7 +68,7 @@
   {
     "Cidade": "Rio Grande",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande",
     "Setor": "Não informado",
     "Site": "https://www.furg.br/",
@@ -79,7 +79,7 @@
   {
     "Cidade": "Rio Grande",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Rio Grande",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/riogrande/",
@@ -90,7 +90,7 @@
   {
     "Cidade": "Capão do Leão",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Pelotas - Campus Capão do Leão",
     "Setor": "Não informado",
     "Site": "https://www.ufpel.com.br/localizacao/",
@@ -101,7 +101,7 @@
   {
     "Cidade": "Pelotas",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Pelotas",
     "Setor": "Não informado",
     "Site": "https://portal.ufpel.edu.br/",
@@ -112,7 +112,7 @@
   {
     "Cidade": "Pelotas",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense",
     "Setor": "Não informado",
     "Site": "http://www.ifsul.edu.br/",
@@ -134,7 +134,7 @@
   {
     "Cidade": "São Lourenço do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande - Campus São Lourenço do Sul",
     "Setor": "Não informado",
     "Site": "https://campussls.furg.br/inicio",
@@ -156,7 +156,7 @@
   {
     "Cidade": "Bagé",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Bagé",
     "Setor": "Não informado",
     "Site": "https://intranet.ifsul.edu.br/catalogo/campus/2",
@@ -167,7 +167,7 @@
   {
     "Cidade": "Bagé",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/portal/",
@@ -178,7 +178,7 @@
   {
     "Cidade": "Bagé",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Bagé",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/bage",
@@ -189,7 +189,7 @@
   {
     "Cidade": "Dom Pedrito",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa - Unipampa - Campus Dom Pedrito",
     "Setor": "Não informado",
     "Site": "http://www.ifsul.edu.br/",
@@ -200,7 +200,7 @@
   {
     "Cidade": "Santana do Livramento",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-RioGrandense -- Campus Santana do Livramento",
     "Setor": "Não informado",
     "Site": "https://www.santana.ifsul.edu.br/",
@@ -211,7 +211,7 @@
   {
     "Cidade": "Santana do Livramento",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Santana do Livramento",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/santana-do-livramento",
@@ -222,7 +222,7 @@
   {
     "Cidade": "Santana do Livramento",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa - Unipampa - Campus Santana do Livramento",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/livramento/",
@@ -233,7 +233,7 @@
   {
     "Cidade": "Tapes",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Tapes",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/tapes",
@@ -244,7 +244,7 @@
   {
     "Cidade": "Caçapava do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa - Unipampa - Campus Caçapava do Sul",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/cacapava/",
@@ -255,7 +255,7 @@
   {
     "Cidade": "São Gabriel",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa - Campus São Gabriel",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/saogabriel/",
@@ -266,7 +266,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Restinga (Porto Alegre)",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/restinga/",
@@ -277,7 +277,7 @@
   {
     "Cidade": "Guaíba",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus Gualba",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/guaiba",
@@ -288,7 +288,7 @@
   {
     "Cidade": "Guaíba",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Guaiba",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/guaiba",
@@ -321,7 +321,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Pontificia Universidade Católica Do Rio Grande Do Sul",
     "Setor": "Não informado",
     "Site": "https://portal.pucrs.br/",
@@ -343,7 +343,7 @@
   {
     "Cidade": "Cachoeira do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Cachoeira do Sul",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/cachoeira-do-sul",
@@ -354,7 +354,7 @@
   {
     "Cidade": "Cachoeira do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus Cachoeira do Sul",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/cachoeira-do-sul",
@@ -365,7 +365,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande Do Sul",
     "Setor": "Não informado",
     "Site": "https://www.ufrgs.br/",
@@ -376,7 +376,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal De Ciências Da Saúde De Porto Alegre",
     "Setor": "Não informado",
     "Site": "https://ufcspa.edu.br/estude-na-ufcspa/graduacao",
@@ -387,7 +387,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/",
@@ -398,7 +398,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Do Vale Do Rio Dos Sinos - Campus Porto Alegre",
     "Setor": "Não informado",
     "Site": "https://www.unisinos.br/institucional/onde-estamos/porto-alegre",
@@ -409,7 +409,7 @@
   {
     "Cidade": "Porto Alegre",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Porto Alegre",
     "Setor": "Não informado",
     "Site": "https://poa.ifrs.edu.br/",
@@ -431,7 +431,7 @@
   {
     "Cidade": "Santa Maria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Santa Maria - Campus Cachoeira do Sul",
     "Setor": "Não informado",
     "Site": "https://www.ufsm.br/unidades-universitarias/cachoeira-do-sul/",
@@ -442,7 +442,7 @@
   {
     "Cidade": "Campus Alvorada",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Alvorada",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/alvorada/",
@@ -475,7 +475,7 @@
   {
     "Cidade": "Tramandaí",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande Do Sul - Campus Litoral Norte",
     "Setor": "Não informado",
     "Site": "https://www.ufrgs.br/litoral/",
@@ -508,7 +508,7 @@
   {
     "Cidade": "Vacaria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Vacaria",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/vacaria",
@@ -519,7 +519,7 @@
   {
     "Cidade": "Vacaria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciència e Tecnologia Do Rio Grande Do Sul - Campus Vacaria",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/vacaria/",
@@ -530,7 +530,7 @@
   {
     "Cidade": "São Luiz Gonzaga",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Integrada Do Alto Uruguai E Das Missões - Campus São Luiz Gonzaga",
     "Setor": "Não informado",
     "Site": "https://www.urisaoluiz.com.br/",
@@ -541,7 +541,7 @@
   {
     "Cidade": "São Luiz Gonzaga",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus São Luiz Gonzaga",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/sao-luiz-gonzaga",
@@ -552,7 +552,7 @@
   {
     "Cidade": "Ijuí",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Do Noroeste Do Estado Do Rio Grande Do Sul",
     "Setor": "Não informado",
     "Site": "https://www.unijui.edu.br/",
@@ -563,7 +563,7 @@
   {
     "Cidade": "Panambi",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Do Noroeste Do Estado Do Rio Grande Do Sul - Campus Panambi",
     "Setor": "Não informado",
     "Site": "https://www.unijui.edu.br/",
@@ -574,7 +574,7 @@
   {
     "Cidade": "Carazinho",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus Carazinho",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/carazinho",
@@ -585,7 +585,7 @@
   {
     "Cidade": "Panambi",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Panambi",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/panambi",
@@ -596,7 +596,7 @@
   {
     "Cidade": "Carazinho",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo - Campus Carazinho",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/carazinho",
@@ -607,7 +607,7 @@
   {
     "Cidade": "Santo Angelo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Integrada Do Alto Uruguai E Das Missões - Campus Santo Angelo",
     "Setor": "Não informado",
     "Site": "https://san.uri.br/",
@@ -618,7 +618,7 @@
   {
     "Cidade": "Santo Angelo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Santo Angelo",
     "Setor": "Não informado",
     "Site": "https://www.iffar.edu.br/santoangelo",
@@ -629,7 +629,7 @@
   {
     "Cidade": "Passo Fundo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal da Fronteira Sul - Campus Passo Fundo",
     "Setor": "Não informado",
     "Site": "https://www.uffs.edu.br/uffs/nossos-campi/campus-passo-fundo",
@@ -640,7 +640,7 @@
   {
     "Cidade": "Passo Fundo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Passo Fundo",
     "Setor": "Não informado",
     "Site": "https://passofundo.ifsul.edu.br/",
@@ -651,7 +651,7 @@
   {
     "Cidade": "Passo Fundo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/",
@@ -662,7 +662,7 @@
   {
     "Cidade": "Lagoa Vermelha",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo - Campus Lagoa Vermelha",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/lagoa-vermelha",
@@ -673,7 +673,7 @@
   {
     "Cidade": "Cerro Largo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal da Fronteira Sul - Campus Cerro Largo",
     "Setor": "Não informado",
     "Site": "https://www.uffs.edu.br/uffs/nossos-campi/campus-cerro-largo",
@@ -684,7 +684,7 @@
   {
     "Cidade": "Cerro Largo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Integrada Do Alto Uruguai E Das Missões - Campus Cerro Largo",
     "Setor": "Não informado",
     "Site": "http://www.uri.br/",
@@ -695,7 +695,7 @@
   {
     "Cidade": "Sertão",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Sertão",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/sertao/",
@@ -706,7 +706,7 @@
   {
     "Cidade": "Sananduva",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Sananduva",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/sananduva",
@@ -717,7 +717,7 @@
   {
     "Cidade": "Sarandi",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo - Campus Sarandi",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/sarandi",
@@ -728,7 +728,7 @@
   {
     "Cidade": "Palmeira das Missões",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Santa Maria - Campus Palmeira das Missões",
     "Setor": "Não informado",
     "Site": "https://www.ufsm.br/unidades-universitarias/palmeira-das-missoes/",
@@ -739,7 +739,7 @@
   {
     "Cidade": "Santa Rosa",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Do Noroeste Do Estado Do Rio Grande Do Sul - Campus Santa Rosa",
     "Setor": "Não informado",
     "Site": "https://www.unijui.edu.br/contato/campus-santa-rosa",
@@ -750,7 +750,7 @@
   {
     "Cidade": "Santo Augusto",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Santo Augusto",
     "Setor": "Embrapa - Trigo",
     "Site": "https://www.iffarroupilha.edu.br/santo-augusto",
@@ -761,7 +761,7 @@
   {
     "Cidade": "Santa Rosa",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Santa Rosa",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/santa-rosa",
@@ -783,7 +783,7 @@
   {
     "Cidade": "Erechim",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal da Fronteira Sul - Campus Erechim",
     "Setor": "Não informado",
     "Site": "https://www.uffs.edu.br/uffs/nossos-campi/campus-erechim",
@@ -805,7 +805,7 @@
   {
     "Cidade": "Erechim",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Erechim",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/erechim",
@@ -816,7 +816,7 @@
   {
     "Cidade": "Erechim",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Integrada Do Alto Uruguai E Das Missões",
     "Setor": "Não informado",
     "Site": "http://www.uri.br/",
@@ -827,7 +827,7 @@
   {
     "Cidade": "Erechim",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Erechim",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/erechim/",
@@ -838,7 +838,7 @@
   {
     "Cidade": "Três Passos",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Três Passos",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/tres-passos",
@@ -849,7 +849,7 @@
   {
     "Cidade": "Três Passos",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Do Noroeste Do Estado Do Rio Grande Do Sul - Campus Três Passos",
     "Setor": "Não informado",
     "Site": "https://www.unijui.edu.br/",
@@ -860,7 +860,7 @@
   {
     "Cidade": "Frederico Westphalen",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Santa Maria - Campus Frederico Westphalen",
     "Setor": "Não informado",
     "Site": "https://www.ufsm.br/unidades-universitarias/frederico-westphalen",
@@ -871,7 +871,7 @@
   {
     "Cidade": "São Sebastião do Caí",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Vale do Cal",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-vale-do-cai/",
@@ -882,7 +882,7 @@
   {
     "Cidade": "Jaguari",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Jaguari",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/jaguari",
@@ -893,7 +893,7 @@
   {
     "Cidade": "Feliz",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Feliz",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/feliz/",
@@ -904,7 +904,7 @@
   {
     "Cidade": "Gramado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Hortensias",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/hortensias",
@@ -915,7 +915,7 @@
   {
     "Cidade": "Lajeado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Do Vale Do Taquari",
     "Setor": "Não informado",
     "Site": "https://www.univates.br/",
@@ -926,7 +926,7 @@
   {
     "Cidade": "Lajeado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-RioGrandense -- Campus Lajeado",
     "Setor": "Não informado",
     "Site": "https://www.lajeado.ifsul.edu.br/",
@@ -937,7 +937,7 @@
   {
     "Cidade": "Sobradinho",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Santa Cruz Do Sul - Campus Sobradinho",
     "Setor": "Não informado",
     "Site": "https://www.unisc.br/pt/onde-estamos/sobradinho",
@@ -948,7 +948,7 @@
   {
     "Cidade": "Gramado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Hortensias",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-da-regiao-das-hortensias/",
@@ -959,7 +959,7 @@
   {
     "Cidade": "Torres",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus Torres",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/torres",
@@ -970,7 +970,7 @@
   {
     "Cidade": "Encantado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Encantado",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/encantado",
@@ -981,7 +981,7 @@
   {
     "Cidade": "Encantado",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Do Vale Do Taquari - Campus Encantado",
     "Setor": "Não informado",
     "Site": "https://www.univates.br/",
@@ -992,7 +992,7 @@
   {
     "Cidade": "Farroupilha",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Farroupilha",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-de-farroupilha/",
@@ -1003,7 +1003,7 @@
   {
     "Cidade": "Farroupilha",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia - Campus Farroupilha",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/farroupilha/",
@@ -1014,7 +1014,7 @@
   {
     "Cidade": "Santiago",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Regional Integrada Do Alto Uruguai E Das Missões - Campus Santiago",
     "Setor": "Não informado",
     "Site": "http://www1.urisantiago.br/",
@@ -1025,7 +1025,7 @@
   {
     "Cidade": "Júlio de Castilhos",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Júlio de Castilhos",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/julio-de-castilhos",
@@ -1047,7 +1047,7 @@
   {
     "Cidade": "Bento Gonçalves",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Bento Gonçalves",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/bento-goncalves",
@@ -1058,7 +1058,7 @@
   {
     "Cidade": "Bento Gonçalves",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/",
@@ -1069,7 +1069,7 @@
   {
     "Cidade": "Caxias do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Caxias do Sul",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/caxias-do-sul",
@@ -1102,7 +1102,7 @@
   {
     "Cidade": "Bento Gonçalves",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia - Campus Bento Gonçalves",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/bento/",
@@ -1113,7 +1113,7 @@
   {
     "Cidade": "Caxias do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site",
@@ -1135,7 +1135,7 @@
   {
     "Cidade": "Itaqui",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa Campus Itaqui",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/itaqui/",
@@ -1146,7 +1146,7 @@
   {
     "Cidade": "Bento Gonçalves",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Região dos Vinhedos",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site",
@@ -1157,7 +1157,7 @@
   {
     "Cidade": "Caxias do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia - Campus Caxias do Sul",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/caxias/",
@@ -1168,7 +1168,7 @@
   {
     "Cidade": "Guaporé",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Guaporé",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-de-guapore/",
@@ -1179,7 +1179,7 @@
   {
     "Cidade": "Veranópolis",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Veranópolis",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/veranopolis/",
@@ -1190,7 +1190,7 @@
   {
     "Cidade": "Soledade",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Soledade",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/botucarai-soledade",
@@ -1201,7 +1201,7 @@
   {
     "Cidade": "Soledade",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo - Campus Soledade",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/soledade",
@@ -1212,7 +1212,7 @@
   {
     "Cidade": "Nova Prata",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Nova Prata",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-de-nova-prata/",
@@ -1223,7 +1223,7 @@
   {
     "Cidade": "São Borja",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus São Borja",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/sao-borja",
@@ -1234,7 +1234,7 @@
   {
     "Cidade": "Ibirubá",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Ibirubá",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/ibiruba/",
@@ -1245,7 +1245,7 @@
   {
     "Cidade": "São Borja",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus São Borja",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/sao-borja",
@@ -1256,7 +1256,7 @@
   {
     "Cidade": "Cruz Alta",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Cruz Alta",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/cruz-alta",
@@ -1267,7 +1267,7 @@
   {
     "Cidade": "Cruz Alta",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Cruz Alta",
     "Setor": "Não informado",
     "Site": "https://home.unicruz.edu.br/",
@@ -1278,7 +1278,7 @@
   {
     "Cidade": "Casca",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Passo Fundo - Campus Casca",
     "Setor": "Não informado",
     "Site": "https://www.upf.br/casca",
@@ -1289,7 +1289,7 @@
   {
     "Cidade": "Vacaria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Caxias Do Sul - Campus Vacaria",
     "Setor": "Não informado",
     "Site": "https://www.ucs.br/site/vestibular/campus-universitario-de-vacaria/",
@@ -1300,7 +1300,7 @@
   {
     "Cidade": "São Jerônimo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus São Jerônimo",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/sao-jeronimo",
@@ -1311,7 +1311,7 @@
   {
     "Cidade": "Charqueadas",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Charqueadas",
     "Setor": "Não informado",
     "Site": "https://www.charqueadas.ifsul.edu.br/",
@@ -1322,7 +1322,7 @@
   {
     "Cidade": "Gravataí",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Gravataí",
     "Setor": "Não informado",
     "Site": "https://www.gravatai.ifsul.edu.br/",
@@ -1333,7 +1333,7 @@
   {
     "Cidade": "Osório",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Osório",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/osorio/",
@@ -1344,7 +1344,7 @@
   {
     "Cidade": "Canoas",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnología Do Rio Grande Do Sul - Campus Canoas",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/canoas/",
@@ -1355,7 +1355,7 @@
   {
     "Cidade": "Osório",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Litoral Norte",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/litoral-norte-osorio",
@@ -1366,7 +1366,7 @@
   {
     "Cidade": "Canoas",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/",
@@ -1388,7 +1388,7 @@
   {
     "Cidade": "Uruguaiana",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa - Unipampa - Campus Uruguaiana",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/uruguaiana/",
@@ -1399,7 +1399,7 @@
   {
     "Cidade": "Sapucaia do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Sapucaia do Sul",
     "Setor": "Não informado",
     "Site": "https://www.sapucaia.ifsul.edu.br/",
@@ -1410,7 +1410,7 @@
   {
     "Cidade": "Santo Antônio da Patrulha",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal Do Rio Grande - Campus Santo Antônio da Patrulha",
     "Setor": "Não informado",
     "Site": "https://www.furg.br/campus-santo-antonio-patrulha",
@@ -1421,7 +1421,7 @@
   {
     "Cidade": "Alegrete",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Alegrete",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/alegrete",
@@ -1432,7 +1432,7 @@
   {
     "Cidade": "São Leopoldo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Do Vale Do Rio Dos Sinos",
     "Setor": "Não informado",
     "Site": "https://www.unisinos.br/",
@@ -1443,7 +1443,7 @@
   {
     "Cidade": "Alegrete",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Fundação Universidade Federal Do Pampa Unipampa - Campus Alegrete",
     "Setor": "Não informado",
     "Site": "https://unipampa.edu.br/alegrete/",
@@ -1476,7 +1476,7 @@
   {
     "Cidade": "Uruguaiana",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciència e Tecnologia Farroupilha - Campus Avançado Uruguaiana",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/uruguaiana",
@@ -1498,7 +1498,7 @@
   {
     "Cidade": "Alegrete",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus Alegrete",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/alegrete",
@@ -1509,7 +1509,7 @@
   {
     "Cidade": "Santa Maria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Federal De Santa Maria",
     "Setor": "Não informado",
     "Site": "https://www.ufsm.br/",
@@ -1520,7 +1520,7 @@
   {
     "Cidade": "Montenegro",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Santa Cruz Do Sul - Campus Montenegro",
     "Setor": "Não informado",
     "Site": "https://www.unisc.br/pt/onde-estamos/montenegro",
@@ -1531,7 +1531,7 @@
   {
     "Cidade": "Novo Hamburgo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Novo Hamburgo",
     "Setor": "Não informado",
     "Site": "http://www.novohamburgo.ifsul.edu.br/",
@@ -1553,7 +1553,7 @@
   {
     "Cidade": "São Vicente do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal de Educação. Ciência e Tecnologia Farroupilha - Campus São Vicente do Sul",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/sao-vicente-do-sul",
@@ -1564,7 +1564,7 @@
   {
     "Cidade": "Santa Cruz do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Santa Cruz Do Sul",
     "Setor": "Não informado",
     "Site": "https://www.unisc.br/pt/",
@@ -1575,7 +1575,7 @@
   {
     "Cidade": "Farroupilha",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Farroupilha",
     "Setor": "Não informado",
     "Site": "https://www.iffarroupilha.edu.br/",
@@ -1586,7 +1586,7 @@
   {
     "Cidade": "Santa Cruz do Sul",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Santa Cruz do Sul",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/santa-cruz-do-sul",
@@ -1597,7 +1597,7 @@
   {
     "Cidade": "Capão da Canoa",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Santa Cruz Do Sul - Campus Capão da Canoa",
     "Setor": "Não informado",
     "Site": "https://www.unisc.br/pt/onde-estamos/capao-da-canoa",
@@ -1608,7 +1608,7 @@
   {
     "Cidade": "Santa Maria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Luterana Do Brasil - Campus Santa Maria",
     "Setor": "Não informado",
     "Site": "https://www.ulbra.br/santa-maria",
@@ -1619,7 +1619,7 @@
   {
     "Cidade": "Santa Maria",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Franciscana",
     "Setor": "Não informado",
     "Site": "https://www.ufn.edu.br/",
@@ -1630,7 +1630,7 @@
   {
     "Cidade": "Montenegro",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Estadual Do Rio Grande Do Sul - Campus Montenegro",
     "Setor": "Não informado",
     "Site": "https://www.uergs.edu.br/montenegro",
@@ -1652,7 +1652,7 @@
   {
     "Cidade": "Novo Hamburgo",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Feevale",
     "Setor": "Não informado",
     "Site": "https://www.feevale.br/",
@@ -1663,7 +1663,7 @@
   {
     "Cidade": "Campo Bom",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade Feevale Campus Campo Bom",
     "Setor": "Não informado",
     "Site": "https://www.feevale.br/campusiii",
@@ -1674,7 +1674,7 @@
   {
     "Cidade": "Rolante",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Do Rio Grande Do Sul - Campus Rolante",
     "Setor": "Não informado",
     "Site": "https://ifrs.edu.br/rolante/",
@@ -1696,7 +1696,7 @@
   {
     "Cidade": "Sapiranga",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Sapiranga",
     "Setor": "Não informado",
     "Site": "https://www.sapiranga.ifsul.edu.br/",
@@ -1718,7 +1718,7 @@
   {
     "Cidade": "Venâncio Aires",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Universidade De Santa Cruz Do Sul - Campus Venancio Aires",
     "Setor": "Não informado",
     "Site": "https://www.unisc.br/pt/home/find-out-where-unisc-is-located/campus-venancio-aires",
@@ -1729,7 +1729,7 @@
   {
     "Cidade": "Venâncio Aires",
     "Estado": "RS",
-    "Tipo": "ICT",
+    "Tipo": "IFS",
     "Nome da Instituição/Tipo": "Instituto Federal De Educação. Ciência E Tecnologia Sul-Rio-Grandense - Campus Venâncio Aires",
     "Setor": "Não informado",
     "Site": "https://www.venancio.ifsul.edu.br/",
@@ -2125,7 +2125,7 @@
   {
     "Cidade": "Caxias do Sul/RS",
     "Estado": "RS",
-    "Tipo": "Instituto Embrapii",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Graphene-UCS",
     "Setor": "Materiais e Química Avançada",
     "Site": "https://embrapii.org.br/unidades/materiais-polimericos-e-nanomateriais-graphene-ucs/",
@@ -2301,7 +2301,7 @@
   {
     "Cidade": "Pelotas/RS",
     "Estado": "RS",
-    "Tipo": "Instituto Embrapii",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "InovaAgro-UFPel",
     "Setor": "Agricultura. Agroindústria e Alimentos",
     "Site": "https://embrapii.org.br/unidades/tecnologias-para-a-agricultura-inovaagro-ufpel/",
@@ -2323,7 +2323,7 @@
   {
     "Cidade": "Santa Maria/RS",
     "Estado": "RS",
-    "Tipo": "Instituto Embrapii",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "INRI-UFSM",
     "Setor": "Energia e Sustentabilidade",
     "Site": "https://embrapii.org.br/unidades/energia-e-mobilidade-inri-ufsm/",
@@ -2389,7 +2389,7 @@
   {
     "Cidade": "Rio Grande/RS",
     "Estado": "RS",
-    "Tipo": "Instituto Embrapii",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "ITEC-FURG",
     "Setor": "Tecnologia da Informação e Comunicação (TIC)",
     "Site": "https://embrapii.org.br/unidades/sistemas-roboticos-e-automaco-itec-furg/",
@@ -2708,7 +2708,7 @@
   {
     "Cidade": "Porto Alegre/RS",
     "Estado": "RS",
-    "Tipo": "Instituto Embrapii",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "Instituto Embrapii - Mobilidade e Eletromobilidade (SIMOB-UFRGS)",
     "Setor": "Processos de manufatura: conformação mecânica, fundição e soldagem; instrumentação e automação; gestão tecnológica para Indústria 4.0",
     "Site": "https://embrapii.org.br/unidades/mobilidade-incluindo-eletro-mobilidade-simob-ufrgs/",
@@ -2741,7 +2741,7 @@
   {
     "Cidade": "Porto Alegre/RS",
     "Estado": "RS",
-    "Tipo": "Parque Tecnológico",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "TECNOPUC",
     "Setor": "Indústria criativa; TIC; ciências da vida; energia e meio ambiente",
     "Site": "https://tecnopuc.pucrs.br/",
@@ -2763,7 +2763,7 @@
   {
     "Cidade": "Caxias do Sul/RS",
     "Estado": "RS",
-    "Tipo": "Parque Tecnológico",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "TECNOUCS",
     "Setor": "Materiais inteligentes e nanotecnologia; Desenvolvimento em Grafeno; saúde & biotecnologia; agtech & foodtech; mobilidade; IA & digital (IA, big data, IoT); cidades inteligentes; edtechs;",
     "Site": "https://www.ucs.br/site/tecnoucs/",
@@ -2785,7 +2785,7 @@
   {
     "Cidade": "Santo Ângelo/RS",
     "Estado": "RS",
-    "Tipo": "Parque Tecnológico",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "TECNOURI",
     "Setor": "Cidades inteligentes e mobilidade; acessibilidade e inclusão; meio ambiente; saúde e segurança; educação e economia; energia; governança e empreendedorismo",
     "Site": "https://san.uri.br/tecnouri/index.php/o-parque/",
@@ -2840,7 +2840,7 @@
   {
     "Cidade": "Canoas/RS",
     "Estado": "RS",
-    "Tipo": "Parque Tecnológico",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "ULBRATECH",
     "Setor": "Biotecnologia e saúde; petróleo/gás e energias renováveis; metalmecânica; tecnologia da informação; indústria criativa",
     "Site": "https://www.ulbra.br/ulbratech",
@@ -2851,7 +2851,7 @@
   {
     "Cidade": "Passo Fundo/RS",
     "Estado": "RS",
-    "Tipo": "Parque Tecnológico",
+    "Tipo": "Universidades",
     "Nome da Instituição/Tipo": "UPFParque",
     "Setor": "Saúde digital; agronegócio; tecnologias da informação e comunicação; edtechs; indústria criativa",
     "Site": "https://www.upf.br/upfparque",
